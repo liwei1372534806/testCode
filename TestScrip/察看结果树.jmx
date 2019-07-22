@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="2.9" jmeter="3.0 r1743807">
+  <hashTree>
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="测试计划" enabled="true">
+      <stringProp name="TestPlan.comments"></stringProp>
+      <boolProp name="TestPlan.functional_mode">false</boolProp>
+      <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
+      <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="用户定义的变量" enabled="true">
+        <collectionProp name="Arguments.arguments"/>
+      </elementProp>
+      <stringProp name="TestPlan.user_define_classpath"></stringProp>
+    </TestPlan>
+    <hashTree>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="线程组" enabled="true">
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="循环控制器" enabled="true">
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+          <stringProp name="LoopController.loops">1</stringProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.num_threads">1</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
+        <longProp name="ThreadGroup.start_time">1560247178000</longProp>
+        <longProp name="ThreadGroup.end_time">1560247178000</longProp>
+        <boolProp name="ThreadGroup.scheduler">false</boolProp>
+        <stringProp name="ThreadGroup.duration"></stringProp>
+        <stringProp name="ThreadGroup.delay"></stringProp>
+      </ThreadGroup>
+      <hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="64 /ajax?c=pu&amp;tk=fe4099cdd3e4e4b377327ca98482a8bb5b7d7a37f5a2ab8ca475cc9b17b82cc866fe6ba5b8cb0715ea1c753095564320" enabled="true">
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="6&#x91;é&#x8d;-YVmn&#x90;½&#x93;|&#xe;Úc-(Û(îÑ&#x93;Õ¼Ú&#x1e;&#x8e;ú&#x8e;²56¥&#x3;&gt;%µê÷nÄ&#x9b;P&quot;qÕrkH&#x8e;&#x1;ð_ÙmAx&#x8d;&#x12;&#x8c;¼±þ#º&#xe;[7&#x92;þWú*&#x1c;&#x6;æÍ9þRñ &#x87;xÈß&#x1c;&#x94;÷xØäZ&#x13;&#x5;ñ¥¼ók&#x1e;³&#x9e;&#x91;#äÍ&#x89;&#x89;^Mä&#x14;#½X»X*^&#x15;2&#x18;°&#x1f;&#x93;&#x96;8~&#x90;º7ß*&#x9d;8g´pÌ¶&#x1d;&#x91;J&quot;&#x1c;&#x8a;Í&#x90;¢É&#x1f;¼-Ï&#x9d;Î&#x6;&#xd;þy&#x81;ËË á´XÜ*&#x8;:&#x16;P&lt;ÿS&#x98;´¹&#x5;-^Ò¯2&#x7f;¼&#x1a;Úëà#º&#x8f;â&#x17;Ü&#x19;ª&#x90;&#x9e;&#x83;&#x19;&#x9a;{^Ë&#x95;8&#x19;ç&#x8c;8h&#x9f;á&#x10;&#xb;(&#x8d;@&#x2;®_¤&#x5;LâÂ" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.name">6&#x91;é&#x8d;-YVmn&#x90;½&#x93;|&#xe;Úc-(Û(îÑ&#x93;Õ¼Ú&#x1e;&#x8e;ú&#x8e;²56¥&#x3;&gt;%µê÷nÄ&#x9b;P&quot;qÕrkH&#x8e;&#x1;ð_ÙmAx&#x8d;&#x12;&#x8c;¼±þ#º&#xe;[7&#x92;þWú*&#x1c;&#x6;æÍ9þRñ &#x87;xÈß&#x1c;&#x94;÷xØäZ&#x13;&#x5;ñ¥¼ók&#x1e;³&#x9e;&#x91;#äÍ&#x89;&#x89;^Mä&#x14;#½X»X*^&#x15;2&#x18;°&#x1f;&#x93;&#x96;8~&#x90;º7ß*&#x9d;8g´pÌ¶&#x1d;&#x91;J&quot;&#x1c;&#x8a;Í&#x90;¢É&#x1f;¼-Ï&#x9d;Î&#x6;&#xd;þy&#x81;ËË á´XÜ*&#x8;:&#x16;P&lt;ÿS&#x98;´¹&#x5;-^Ò¯2&#x7f;¼&#x1a;Úëà#º&#x8f;â&#x17;Ü&#x19;ª&#x90;&#x9e;&#x83;&#x19;&#x9a;{^Ë&#x95;8&#x19;ç&#x8c;8h&#x9f;á&#x10;&#xb;(&#x8d;@&#x2;®_¤&#x5;LâÂ</stringProp>
+                <stringProp name="Argument.value">1Áìæure»&#x7;&#x97;z.á³~ÙG)&#x9e;&#x95;jÈ¹&#x82;®?KrFpgèç]ùçÓxÜ¥ÉQêÇo&#x83;±d¢&#x9e;x&#xc;&#x7;&#xc;(±&#x8e;}ÊLS&#x80;`&#x17;&#x8f;&#x16;¡`&#x81;aû&#x86;¤³&#x1d;]&lt; ÛRê&#x5;}ü_bÒYëØß&#x89;	 g©Â³&gt;t1£ò&#xb;8Â°&#x93;}ÀË$ôÔT×¯&#x8;[&#x10;ã&#x90;&#x9a;ì/</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+                <boolProp name="HTTPArgument.use_equals">true</boolProp>
+              </elementProp>
+              <elementProp name="Á&#x18;ba§y&#x9c;&#x90;&#x8a;&#x91;w&#x2;&#x86;1&#xd;&#xa;ô&#x1e;&#x14;&#x1d;Úx&#x91;7&#x9f;Ç&#x4;GâGIÔ:v×8e&#x80; ý&#x11;&#x18;L&#xc;$;&#x4;&#x12;®&#x15;jü&#x8a;&#x12;&#x9d;)&#x9e;&#x85;¨-6.&#x84;Â¶âñ&#x8f;Ä&#x1a;öT&gt;i0&#x92;&gt;&#x1d;&#x5;Pr¢&#x9;é&#x9a;´~&#x86;m&#x19;&#x98;å&#xe;wVÌ]J SRóIT&#x87;¼&#x17;þ&#x86;°¯&apos;nsi&#x8f;&#xf;Y½û&#x89;&#x81;&#x93;üË|&#x1c;û&#x1b;Ì%Ô&#x1d;%_&#x1a;H¡G¾Ñ&#xc;&#x18;&#x81;Ìáÿ÷&#x4;Ìÿ ¦&#x8e;&#x98;¹¦&#x1d;Ò_&#x8a;&#x90;ÁíJ¸µÃ&#x0;&#x1a;;&#x8;¬&lt;&#x10;»*çôï&gt;ý&#x1c;&#xc;&#x17;&#x2;¸rÂ}Ð£Mr&#x3;ï¥lÇ£" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.name">Á&#x18;ba§y&#x9c;&#x90;&#x8a;&#x91;w&#x2;&#x86;1&#xd;
+ô&#x1e;&#x14;&#x1d;Úx&#x91;7&#x9f;Ç&#x4;GâGIÔ:v×8e&#x80; ý&#x11;&#x18;L&#xc;$;&#x4;&#x12;®&#x15;jü&#x8a;&#x12;&#x9d;)&#x9e;&#x85;¨-6.&#x84;Â¶âñ&#x8f;Ä&#x1a;öT&gt;i0&#x92;&gt;&#x1d;&#x5;Pr¢	é&#x9a;´~&#x86;m&#x19;&#x98;å&#xe;wVÌ]J SRóIT&#x87;¼&#x17;þ&#x86;°¯&apos;nsi&#x8f;&#xf;Y½û&#x89;&#x81;&#x93;üË|&#x1c;û&#x1b;Ì%Ô&#x1d;%_&#x1a;H¡G¾Ñ&#xc;&#x18;&#x81;Ìáÿ÷&#x4;Ìÿ ¦&#x8e;&#x98;¹¦&#x1d;Ò_&#x8a;&#x90;ÁíJ¸µÃ&#x0;&#x1a;;&#x8;¬&lt;&#x10;»*çôï&gt;ý&#x1c;&#xc;&#x17;&#x2;¸rÂ}Ð£Mr&#x3;ï¥lÇ£</stringProp>
+                <stringProp name="Argument.value">ÏR&#x83;&#x1e;yÀ8b&#x13;&#x96;Fì5Ó \±¶À&#xb;&#x1c;¹&#x85;=x</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+                <boolProp name="HTTPArgument.use_equals">true</boolProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">log.tbs.qq.com</stringProp>
+          <stringProp name="HTTPSampler.port"></stringProp>
+          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+          <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          <stringProp name="HTTPSampler.protocol">http</stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+          <stringProp name="HTTPSampler.path">/ajax?c=pu&amp;tk=fe4099cdd3e4e4b377327ca98482a8bb5b7d7a37f5a2ab8ca475cc9b17b82cc866fe6ba5b8cb0715ea1c753095564320</stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <boolProp name="HTTPSampler.monitor">false</boolProp>
+          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP信息头管理器" enabled="true">
+            <collectionProp name="HeaderManager.headers">
+              <elementProp name="Content-Type" elementType="Header">
+                <stringProp name="Header.name">Content-Type</stringProp>
+                <stringProp name="Header.value">application/x-www-form-urlencoded</stringProp>
+              </elementProp>
+              <elementProp name="Accept-Encoding" elementType="Header">
+                <stringProp name="Header.name">Accept-Encoding</stringProp>
+                <stringProp name="Header.value">gzip</stringProp>
+              </elementProp>
+              <elementProp name="User-Agent" elementType="Header">
+                <stringProp name="Header.name">User-Agent</stringProp>
+                <stringProp name="Header.value">Dalvik/2.1.0 (Linux; U; Android 9; CLT-AL00 Build/HUAWEICLT-AL00)</stringProp>
+              </elementProp>
+            </collectionProp>
+          </HeaderManager>
+          <hashTree/>
+        </hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="65 /ajax?c=dl&amp;k=61308a0c81243356a7437d6a6ed69307" enabled="true">
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="&#x87;&apos;&#x17;&#x82;¾&#x90;¯&#x90;&#x9e;&#x2;¿&#x9d;&apos;ìN&#x8a;ojËóÖH&#x7f;Æp{?(&#x93;íÖä£°dÁjj&#x81;&#x15;&#x1b;ãsÉá&#x90;s!Äd&#x85;&#x6;A{k.9ég¢&#x93;Ä|­FW&gt;&#x1;&#xb;&#x11;¥LÛò&#x8c; %Û¼Ù&#x8;&#x1a;&#x87;¼&#x14;·kLÞ[&#x9f;|&#x9f;&#x5;ñæ6¿kæN&#x86;ÄmgIë?ç6À&#x8f;FPBs,&#x89;Î&#x88;&#x98;ìSì¾&#x1;X&quot;&#x10;&#x1f;«&#x83;Ï;&#x84;dçÏ«&#x9b;&#x1;&#x8c;&#x9c;&#x1;$&#x84;n&#x19;&#x1b;&#x18;ÕÉQ&#x1c;2!Z¾&#xf;9H#Íd" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.name">&#x87;&apos;&#x17;&#x82;¾&#x90;¯&#x90;&#x9e;&#x2;¿&#x9d;&apos;ìN&#x8a;ojËóÖH&#x7f;Æp{?(&#x93;íÖä£°dÁjj&#x81;&#x15;&#x1b;ãsÉá&#x90;s!Äd&#x85;&#x6;A{k.9ég¢&#x93;Ä|­FW&gt;&#x1;&#xb;&#x11;¥LÛò&#x8c; %Û¼Ù&#x8;&#x1a;&#x87;¼&#x14;·kLÞ[&#x9f;|&#x9f;&#x5;ñæ6¿kæN&#x86;ÄmgIë?ç6À&#x8f;FPBs,&#x89;Î&#x88;&#x98;ìSì¾&#x1;X&quot;&#x10;&#x1f;«&#x83;Ï;&#x84;dçÏ«&#x9b;&#x1;&#x8c;&#x9c;&#x1;$&#x84;n&#x19;&#x1b;&#x18;ÕÉQ&#x1c;2!Z¾&#xf;9H#Íd</stringProp>
+                <stringProp name="Argument.value">¯kMTéÉ&#x16;¬¾&#x96;Pó£?aÁú=&#x19;&gt;ã&#xb;&#x0;&#x1b;ß&#x84;ºÕA 	à%Ú&#x92;äM&#x10;ð±&#x8a;	Zç×&#x3;þq&#x2;·ÿ:2÷Õ&#x0;vÌR&#x17;Ògñ]¿¬¼?×öRâ&#x17;K&#x16;E&#x96;]uZ&#x81;c&#x10;År&#x11;4*jMF&#x2;&#x94;d¾Áæ&#x85;f`t&#x89;&#x90;]gZÒ­&#x8f;JÜ&#x97;ÎQ8CY&gt;&#x98;¿&#x93;%&#x83;FÂîzã­àRúÉdÓE&#xc;(½RaÿG&#x1b;å&#x99; ó~Ôlwò&#x88;&#xf;Õ¦9üù1¾:&#x9f;ÿV`lûÄ{&#x8a; &#x8;Ø1&#x94;É}ÛÁ&#x85;c@ê&#x7;²t³mc­r^&#x1a;&#x13;#¡&#x13;4&#x86;¤&#x92;sö&#x88;&#x92;ÁúoCÚäFÐÒå&#x8d;&#x5;½[ê&#x98;i(&#x8d;ÌÌ^C&#x0;õ&#x3;þ&#xf;a§Z&#x14;;í&#x7f;</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+              <elementProp name="¿s°5¸7áfé&#x7;¬NIj&#x8e;âÒ&#x8a;Þë¾&#x9f;uÏ&#x19;&#x18;&#x11;wSÞ£&#x13;[lå)Åp¯&#x8c;&#x18;ú&#x9a;h¶&#x1;Þ&quot;^&#x99;ïQÀk@H&#x85;" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.name">¿s°5¸7áfé&#x7;¬NIj&#x8e;âÒ&#x8a;Þë¾&#x9f;uÏ&#x19;&#x18;&#x11;wSÞ£&#x13;[lå)Åp¯&#x8c;&#x18;ú&#x9a;h¶&#x1;Þ&quot;^&#x99;ïQÀk@H&#x85;</stringProp>
+                <stringProp name="Argument.value">¼®&quot;þZÌ&#x94;r]a&#x9a;hÃIÌ^C&#x0;õ&#x3;þ&#xf;a§Z&#x14;;í&#x7f;</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+              <elementProp name="¿s°5¸7áfé&#x7;¬NIj&#x8e;âÒ&#x8a;Þë¾&#x9f;uÏ&#x19;&#x18;&#x11;wSÞ£&#x13;[lå)Åp¯&#x8c;&#x18;ú&#x9a;h¶&#x1;Þ&quot;©à&#x99;&#x2;o4½M`m&#x8e;¯&#x99;÷¯¾&#x1d;&#x8b;,¶â¬~äR&#x99;&#x1d;&#xf;¯ü*ôV&#xc;&#x96;$&#x9a;0TÓ!&#xf;Á+½&#x87;NS&#xe;Ë&#x8d;Ç!ST&#x1e;Ñ÷G0ñ&#x8c;û0&#x3;yã&#x90;§&#x8f;ùs6Ó©Á&#x11;&#x92;,_&#x5;£cuqµxÛ&#x9e;îª&#x1a;&#x9d;F&#x7f;ôh&#x92;\mÏ[ß&#x9f;1²EýõxÍ&#x8;µêlMÎ}\ªú8&#x11;Å&#x1a;1üãëü&quot;ç£æ,©&#x5;&#x9c;,½Çâ±Ëá&quot;6Rþ²&#x81;ï¥Pì&#x1b;RÇù\¨£ÓÎõG*&#x98;Ã²þý&#x9e;\&#x15;¡&#x18;ú&#x9a;h¶&#x1;Þ&quot;&#x8;A&#x8d;üá0YI[&#x8f;Sæ¶æ(q&#x93;F&#x90;&#x8e; ma&#x8d;Ôÿ&#x82;ÜÚPµ&#x4;&gt;³²&#x1a;&#x89;&#xf;Û&#x81;Ó;Ç&#x12;8º{&#x92;U*â5íJÊà&#x9b;!À6:Ô" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.name">¿s°5¸7áfé&#x7;¬NIj&#x8e;âÒ&#x8a;Þë¾&#x9f;uÏ&#x19;&#x18;&#x11;wSÞ£&#x13;[lå)Åp¯&#x8c;&#x18;ú&#x9a;h¶&#x1;Þ&quot;©à&#x99;&#x2;o4½M`m&#x8e;¯&#x99;÷¯¾&#x1d;&#x8b;,¶â¬~äR&#x99;&#x1d;&#xf;¯ü*ôV&#xc;&#x96;$&#x9a;0TÓ!&#xf;Á+½&#x87;NS&#xe;Ë&#x8d;Ç!ST&#x1e;Ñ÷G0ñ&#x8c;û0&#x3;yã&#x90;§&#x8f;ùs6Ó©Á&#x11;&#x92;,_&#x5;£cuqµxÛ&#x9e;îª&#x1a;&#x9d;F&#x7f;ôh&#x92;\mÏ[ß&#x9f;1²EýõxÍ&#x8;µêlMÎ}\ªú8&#x11;Å&#x1a;1üãëü&quot;ç£æ,©&#x5;&#x9c;,½Çâ±Ëá&quot;6Rþ²&#x81;ï¥Pì&#x1b;RÇù\¨£ÓÎõG*&#x98;Ã²þý&#x9e;\&#x15;¡&#x18;ú&#x9a;h¶&#x1;Þ&quot;&#x8;A&#x8d;üá0YI[&#x8f;Sæ¶æ(q&#x93;F&#x90;&#x8e; ma&#x8d;Ôÿ&#x82;ÜÚPµ&#x4;&gt;³²&#x1a;&#x89;&#xf;Û&#x81;Ó;Ç&#x12;8º{&#x92;U*â5íJÊà&#x9b;!À6:Ô</stringProp>
+                <stringProp name="Argument.value">Á&#x8f;&gt;&#x5;:I&#x89;h&#x97;)÷&#x1f;ø¸&#xb;^%#P&#xf;¼*x&#x9c;ßÂ=åfÝ?&#x82;èÆ&#x0;&#x91;={_Z?&#x8b;­÷&#x82;ò9WÝ£&#x96;ûa:&#x9d;4&#x1c;Ë{rªâ&#x95;$eëü&quot;ç£æ,©&#x5;&#x9c;,½Çâ±Ëá&quot;6Rþ²&#x81;ïm&#x92;&#x1d;&#x3;AMW?3°hlÊÄX«s÷¬l&#x7;s8&lt;Ðÿ&#x9c;réøUæ¦.&#xb;&#x8a;ëÚ8êá»_&#x4;ßQwuÆ&#x0;&#x91;={_Z?&#x8b;­÷&#x82;ò9WÝç&#x1c;ã&#x15;Æ
+&#x1c;Õú8&#x11;Å&#x1a;1üãëü&quot;ç£æ,©&#x5;&#x9c;,½Çâ±Ëá&quot;6Rþ²&#x81;ïm&#x92;&#x1d;&#x3;AMW?3°hlÊÄX«s÷¬l&#x7;s8&lt;Ðÿ&#x9c;réøUæ¦.&#xb;&#x8a;ëÚ8êÌ6äq&#x92;=Ô&#x87;&#x80;ØpC´à&#x84;ë&#x1c;:@¨ì¼ï&#x88;8þ
+ó&#x81;&#x1;Â¥&#x1c;!8	&#x8b;êÙMÔÿ&#x82;ÜÚPµ&#x4;h×Å9RÇî&#x90;û\É¡¯&#x80;QÒØ&#x8b;f&quot;£&apos;­»&#x93;Ãuqy8+l~øgö&#x8a;\o&#x8c;Ø&#x9a;rlO&#x92;G.Åò,&#x17;ÇÇ&#x1a;X´&#x8d;	¡&#x93;&#x98;æ#[ÌÔ¿d&#x92;ï&#x7; &#x1a;çbn&#x9d;&#x92;#¿ÛÖÐ&#x7f;&#x95;&#x13;H</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+              <elementProp name="÷P9í&#x88;®Ë+ÿL |b&#x14;µMç&apos;Ì5&#x81;7(Ë&#x7f;ÊÁÈÈ§¨û&#x9;&#x96;x]&#x85;ñ&#x9b;&#x1;Õäµñ©dËu¤ÇÂd]$ /W{«mÍ&#x1a;&#x92;ÚòF&#x85;&#x5;&#x95;ùm6&#x9b;-&#x18;5í&#x6;¡de4&#x96;Ç»r&#x89;c&#x1;T&#xa;&#x8f;3-Þ&#x9a;Ø_¶ô&#x8e;íGq&#x86;ä&#xc;%f&#x81;`øà!Âjñ#¹Å+W&quot;&#x97;Fia&#x81;¿C&#x1f;&#x84;#Õ­hB¾¤¡AtÜ~¿3BÉb&#x91;PGÄ-¦&#x16;ìI&#xa;&#x19;êk¾D jé»Â|(ºã0&#x92;ôõ&#x8f;Es\©ÊÁ&#x6;}ÎÍõL&#x91;u¤ÇÂd]$ ah&#xa;H&#xe;Z+©%4ðZÞ&#xd;v&#x10;A©_í§¾¥ï&#x8f;ÏNû &#xb;X&#xa;¼]ØT#&#x1c;ËÑ&#x7f;DÑnó{äÿ]&#x87; l&#x99;Þ Ï&#x8;¶&#x86;Ö" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.name">÷P9í&#x88;®Ë+ÿL |b&#x14;µMç&apos;Ì5&#x81;7(Ë&#x7f;ÊÁÈÈ§¨û	&#x96;x]&#x85;ñ&#x9b;&#x1;Õäµñ©dËu¤ÇÂd]$ /W{«mÍ&#x1a;&#x92;ÚòF&#x85;&#x5;&#x95;ùm6&#x9b;-&#x18;5í&#x6;¡de4&#x96;Ç»r&#x89;c&#x1;T
+&#x8f;3-Þ&#x9a;Ø_¶ô&#x8e;íGq&#x86;ä&#xc;%f&#x81;`øà!Âjñ#¹Å+W&quot;&#x97;Fia&#x81;¿C&#x1f;&#x84;#Õ­hB¾¤¡AtÜ~¿3BÉb&#x91;PGÄ-¦&#x16;ìI
+&#x19;êk¾D jé»Â|(ºã0&#x92;ôõ&#x8f;Es\©ÊÁ&#x6;}ÎÍõL&#x91;u¤ÇÂd]$ ah
+H&#xe;Z+©%4ðZÞ&#xd;v&#x10;A©_í§¾¥ï&#x8f;ÏNû &#xb;X
+¼]ØT#&#x1c;ËÑ&#x7f;DÑnó{äÿ]&#x87; l&#x99;Þ Ï&#x8;¶&#x86;Ö</stringProp>
+                <stringProp name="Argument.value">ð
+&#x8c;FF&#xd;âq&#x9c;&#x1;ZëÒÊ-?UFëºTF4ãX$&#x11;Þá2£SÓ6FÒìk&#x8b;Æ5&#x7f; &#x91;&#x9a;Ï@v&#x5;&#x99;Íåëùm&#x89;ÚEé¸©KÜBp·&#x1e;ëü&quot;ç£æ,©&#x5;&#x9c;,½Çâ±Ëá&quot;6Rþ²&#x81;ï¥Pì&#x1b;RÇù\&#x8c;8²:òúa~OJ)²&gt;Æø8f(t9A&#x96;&#xf;ÛYREP ìO&#x7f;JÝº.Ç&#x86;®YÔÿ&#x82;ÜÚPµ&#x4;&gt;³²&#x1a;&#x89;&#xf;Û&#x81;Ó;Ç&#x12;8º{&#x92;U*â5íJÊàÎ­ÎÜcoñG&#xe;&#x91;ß±\b&#x86;ä&#xe;&#x11;ñs«&#x95;&#x5;&#x86;W`LXÇ|Ìë&#x19;&#x18;&#x11;wSÞ£&#x13;&#x2;ùàBj&#x89;Ô&#x8a;Ù$h#ÃàX&#x17;Ôÿ&#x82;ÜÚPµ&#x4;&gt;³²&#x1a;&#x89;&#xf;Û&#x81;Ó;Ç&#x12;8º{&#x92;U*â5íJÊàÎ­ÎÜcoñG&#xe;&#x91;ß±\b&#x86;ä&#xe;&#x11;ñs«&#x95;&#x5;&#x86;
+i3&#x12;¸ùÄ¼&#x8e;%b­­y²g&#x91;&#x95;&#x18;Í@ò+¯ËË³AóA&#x86;&#x9b;º&#x86;8Ê&#xb;Æ¸g\&#xb;óõùº&#x97;&#x1b;IK|UÝµíZäÜµ^Ð&#x86;)²ý&#x6;&lt;%&#x92;¹õ^Uù&#x1f;&#x97;×½í¹¡&#x4;êð4ÃðR§Ó&#x1e;¥è&#x10;ö³üLÁA&#x83;5W&#x8a;&#x91;&#x93;Òz&#x12;Ì·&#x85;óï&#x13;ÓAÞ&#xd;?RN&#x9b;Ê&#x12;µ fÌ^C&#x0;õ&#x3;þ&#xf;a§Z&#x14;;í&#x7f;</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+              <elementProp name="¿s°5¸7áfé&#x7;¬NIj&#x8e;âÒ&#x8a;Þë¾&#x9f;uÏ&#x97;Û&lt;Â&#x14;&#x83;Á&#x8e;&#x14;±&#xf;¹&#x83;ß&#x15;¡W`LXÇ|Ìë&#x97;Û&lt;Â&#x14;&#x83;Á&#x8e;º&#xc;+¥ÅøR%í&#x85;c¤g&lt;4nÕ¦9üù1¾:&#x9f;ÿV`lûÄ{&#x8a; &#x8;Ø1&#x94;É}ÛÁ&#x85;c@ê&#x7;²ý¾&#x97;" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.name">¿s°5¸7áfé&#x7;¬NIj&#x8e;âÒ&#x8a;Þë¾&#x9f;uÏ&#x97;Û&lt;Â&#x14;&#x83;Á&#x8e;&#x14;±&#xf;¹&#x83;ß&#x15;¡W`LXÇ|Ìë&#x97;Û&lt;Â&#x14;&#x83;Á&#x8e;º&#xc;+¥ÅøR%í&#x85;c¤g&lt;4nÕ¦9üù1¾:&#x9f;ÿV`lûÄ{&#x8a; &#x8;Ø1&#x94;É}ÛÁ&#x85;c@ê&#x7;²ý¾&#x97;</stringProp>
+                <stringProp name="Argument.value">&#x9f;¦×&#x1b;Æ&#x0;&#x91;={_Z?&#x8b;­÷&#x82;ò9WÝô&#x12;&#xb;KþiÃG&#x95;W&#x1;Öxý&#x1b;/s÷¬l&#x7;s8&lt;p&#x92;kn×iù£¢çz</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+              <elementProp name="&#x83;Ï&#x2;ÏÌ^C&#x0;õ&#x3;þ&#xf;a§Z&#x14;;í&#x7f;" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.name">&#x83;Ï&#x2;ÏÌ^C&#x0;õ&#x3;þ&#xf;a§Z&#x14;;í&#x7f;</stringProp>
+                <stringProp name="Argument.value"></stringProp>
+                <stringProp name="Argument.metadata"></stringProp>
+              </elementProp>
+              <elementProp name="¿s°5¸7áfé&#x7;¬NIj&#x8e;âj&#x85;É§}²Æ¦&#x80;ØpC´à&#x84;ë&#x1c;:@¨ì¼ï&#x88;ýæáêõ" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.name">¿s°5¸7áfé&#x7;¬NIj&#x8e;âj&#x85;É§}²Æ¦&#x80;ØpC´à&#x84;ë&#x1c;:@¨ì¼ï&#x88;ýæáêõ</stringProp>
+                <stringProp name="Argument.value">µ¾&gt;wr&#xf;&#x2;i&#x1b;&#x85;&#x95;W&#x1;Öxý&#x1b;/s÷¬l&#x7;s8&lt;p&#x92;kn×iù£5b&#x87;ï&#x82;Ë¤ûÌ^C&#x0;õ&#x3;þ&#xf;a§Z&#x14;;í&#x7f;</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+              <elementProp name="¿s°5¸7áfé&#x7;¬NIj&#x8e;âj&#x85;É§}²Æ¦&#x80;ØpC´à&#x84;ë&#x1c;:@¨ì¼ï&#x88;ýæáêõ" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.name">¿s°5¸7áfé&#x7;¬NIj&#x8e;âj&#x85;É§}²Æ¦&#x80;ØpC´à&#x84;ë&#x1c;:@¨ì¼ï&#x88;ýæáêõ</stringProp>
+                <stringProp name="Argument.value">µ¾&gt;wr&#xf;&#x2;i&#x1b;&#x85;&#x1a;bÐ¹W`§H&#x8f;&gt;&#x5;:I&#x89;h&#x97;)÷&#x1f;ø¸&#xb;^%&#x8a;¸ý9&#x8e;àeê~S&#x11;&#x9d;&#x89;ÍÂ{&#x85;&#x89;:G&#x1e;í´&#xf;05ô&#x10;z&#x80;=,×</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+              <elementProp name="&#xb;&quot;ªBqÔ&#x8e;¬kí&#x1d;&#x82;Þ¢sE&#x7f;~¯ÀÆ-Ä&#x2;&#x16;õ&#x8d;1L%Ö&#x8a;ý&#x96;Év&#x9d;H1·9(&#xf;_&#x17;&#x87;®&#x5;&#x19;ÂYwÿ&#x1f;î&#x8a;Ã&#x88;©&#x16;§x~&#x84;&#x9f;¬&#x16;f&gt;Ý&#x8f;G&lt;Küþ&#x94;&#xd;³ôx&#x12;´âOu½®´¼Ê&#x95;&#xc;(v&#x16;¸Qð;:&#x8f;&#x3;&#x93;³&#x13;/&#x7f;.IÉ&#x5;¯êùÎð&#x99;&#x4;.öÏygÁ&#x7f;h×Å9RÇî&#x90;¥tÈ&#x5;ô&#x1b; nÓ&#x95;&#x9c;Ö&#x83;jTTµUõúµ`nm&#x1c;Þ]&quot;gÛ,öÒ&#x9;¦&#x90;ïÎ~" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.name">&#xb;&quot;ªBqÔ&#x8e;¬kí&#x1d;&#x82;Þ¢sE&#x7f;~¯ÀÆ-Ä&#x2;&#x16;õ&#x8d;1L%Ö&#x8a;ý&#x96;Év&#x9d;H1·9(&#xf;_&#x17;&#x87;®&#x5;&#x19;ÂYwÿ&#x1f;î&#x8a;Ã&#x88;©&#x16;§x~&#x84;&#x9f;¬&#x16;f&gt;Ý&#x8f;G&lt;Küþ&#x94;&#xd;³ôx&#x12;´âOu½®´¼Ê&#x95;&#xc;(v&#x16;¸Qð;:&#x8f;&#x3;&#x93;³&#x13;/&#x7f;.IÉ&#x5;¯êùÎð&#x99;&#x4;.öÏygÁ&#x7f;h×Å9RÇî&#x90;¥tÈ&#x5;ô&#x1b; nÓ&#x95;&#x9c;Ö&#x83;jTTµUõúµ`nm&#x1c;Þ]&quot;gÛ,öÒ	¦&#x90;ïÎ~</stringProp>
+                <stringProp name="Argument.value">ëÛ&#x1d;Ì &#x15;½Ç¢&#x80;&#x1;ûÏ&#x1d;&#x4;i&#x14;bvÆ)ÑU[&#x85;&#x15;&quot;]&#x81;¥&#x16;£c&#x95;É&#x90;&#xe;&#x96;&#x83;S&gt;ð&#x12;wÀ&#x1e;&#x3;pj&#x16;Ñ&#x1a;t&#x92;&#xb;&#x13;*fËÎ¯&#x85;&quot;ù+=±&#x94;yq&#xf;L¦&#x1;Ìì}~t^&lt;)s¦/Åp°¤±²ÿYþ&#x8e;,h×Å9RÇî&#x90;`p­&#xd;&#x87;&#x7f;^&#xc;·ÎùkÍ¬û&#x2;ì&#x96;Zp&#x95;i®&lt;¡&#x9d;v)ú&#x1f;5 J&#xe;A&#x84;È&#x8b;r&#x99;é¿+o&#x6;¶¼Ì¿ë-&#x11;ZÊ&#x98;¥î&#x1c;yºåÙ`_â­b&#x89;*&#xf;&#x8c;&#x14;9&#x8f;±¬{</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+              <elementProp name="yÑ_Ám&#x1e;Iä®9½º#E&#x17;&#x8;äÆ&#x85;ïR nó2SæTÉ&#x9;&#x91;]íí&quot;h&#x18;F&#x1b;ã9MÌ^C&#x0;õ&#x3;þ&#xf;a§Z&#x14;;í&#x7f;" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.name">yÑ_Ám&#x1e;Iä®9½º#E&#x17;&#x8;äÆ&#x85;ïR nó2SæTÉ	&#x91;]íí&quot;h&#x18;F&#x1b;ã9MÌ^C&#x0;õ&#x3;þ&#xf;a§Z&#x14;;í&#x7f;</stringProp>
+                <stringProp name="Argument.value"></stringProp>
+                <stringProp name="Argument.metadata"></stringProp>
+              </elementProp>
+              <elementProp name="¿s°5¸7áfé&#x7;¬NIj&#x8e;âÒ&#x8a;Þë¾&#x9f;uÏÇ&#x91;G}Üµ÷&#x82;ûÃÖ2Ø¡Í¸&#x12;Ä&#x96;qøÕ&#x3;S" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.name">¿s°5¸7áfé&#x7;¬NIj&#x8e;âÒ&#x8a;Þë¾&#x9f;uÏÇ&#x91;G}Üµ÷&#x82;ûÃÖ2Ø¡Í¸&#x12;Ä&#x96;qøÕ&#x3;S</stringProp>
+                <stringProp name="Argument.value"></stringProp>
+                <stringProp name="Argument.metadata"></stringProp>
+              </elementProp>
+              <elementProp name="¢" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.name">¢</stringProp>
+                <stringProp name="Argument.value">&apos;&#x9c;&#x16;û*H	qzÆï&apos;ÌÕ¦9üù1¾:&#x9f;ÿV`lûÄ{&#x8a; &#x8;Ø1&#x94;É}ÛÁ&#x85;c@ê&#x7;²&#x80;Ù.	=Sþ&#x8b;Ås´f9£²C$a8&#x16;/dTÀh&#x92;\mÏ[ß&#x9f;&#xe;&#x91;ß±\b&#x86;ä­&#x92;z&#x8c;&#x1a;Ì&quot;ó&#x1e;{ /ç¸Å¯Õ¦9üù1¾:&#x9f;ÿV`lûÄ{&#x8a; &#x8;Ø1&#x94;É}ÛÁ&#x85;c@ê&#x7;²&#x80;Ù.	=Sþ&#x8b;Ås´f9£²C$a8&#x16;/dTÀTÌUM&#x2;!&#x89;ìz&#xe;Ý(¡áÃêã&#x80;j&#x86;§&#x9c;îFøº{
+Ë&#x81;ã¦L±&#xb;þ&gt;t Rª#¬v&#x92;ùê&#x2;ObÅ&#x5;l¦¦îîÕFé3V²Ïß&#x81;ä&#x90;&apos;5¦&#x98;»gséª»üÛ¿ÖASý&#x5;&#x9a;»&#x90;¼&#x17;b?ñµW¼&#x87;&#x91;I-%&#x9e;_&#x8;A&#x8d;üá0YI[&#x8f;Sæ¶æ(qei3hþ¦&#x8d;&#x85;Ôÿ&#x82;ÜÚPµ&#x4;&gt;³²&#x1a;&#x89;&#xf;Û&#x81;Ó;Ç&#x12;8º{&#x92;U*â5íJÊàÎ­ÎÜcoñG1²EýõxÍ&#x8;$a8&#x16;/dTÀh&#x92;\mÏ[ß&#x9f;1²EýõxÍ&#x8;&#x83;&#x91;	í&#xe;ÒRGh®ÃÏÒßxÜëü&quot;ç£æ,©&#x5;&#x9c;,½Çâ±Ëá&quot;6Rþ²&#x81;ïm&#x92;&#x1d;&#x3;AMW?3°hlÊÄX«s÷¬l&#x7;s8&lt;&#x9b;6ÞiÚp&#x80;4Î&#x82;&#x96;º»6¬O&#x80;ØpC´à&#x84;ë&#x1c;:@¨ì¼ï&#x88;8þ
+ó&#x81;&#x1;Â¥?sQ/&#x6;ó&apos;&#x1e;Ôÿ&#x82;ÜÚPµ&#x4;&gt;³²&#x1a;&#x89;&#xf;Û&#x81;Ó;Ç&#x12;8º{&#x92;U*â5íJÊà&#x9b;!À6:Ô=Á&#x8f;&gt;&#x5;:I&#x89;h&#x97;)÷&#x1f;ø¸&#xb;^%ºö&lt;)YÓÏ3 p&#x8e;³&#xb;&#x81;¾&#x94;&#x80;ØpC´à&#x84;ë&#x1c;:@¨ì¼ï&#x88;8þ
+ó&#x81;&#x1;Â¥×x	&#x9e;dïa&#x9d;Ôÿ&#x82;ÜÚPµ&#x4;&gt;³²&#x1a;&#x89;&#xf;Û&#x81;Ó;Ç&#x12;8º{&#x92;U*â5íJÊà&#x9b;!À6:Ô=Á&#x8f;&gt;&#x5;:I&#x89;h&#x97;)÷&#x1f;ø¸&#xb;^%ºö&lt;)YÓÏ3&#x7;·&#x13;y&#xc;îÎ&#x8c;&#x6;»6ðF=´¹Æ&#x0;&#x91;={_Z?&#x8b;­÷&#x82;ò9WÝ&apos;i&#x8a;*Ó&#x16;&#x17;È	Y¨þ&#x19;&#x1a;£&#x8e;&#x9a;»&#x87;T1&#x1c;6â.&#x92;ê&#x8f; ¦Dd&#x3;ï&quot;&#x1c;&#x80;&#x1a;kh&quot;g°eà}&#x9f;£Z&#x3;áÊ&#x5;&#x18;¬&#x8e;&#x10;3Êí!?&#x88;&#x97;¯ÃpdNß&#x13;ÈH&#x16;&lt;`ä(_&#x8e;¥\¾µÀ¦&#x80;K4á¾+ÞnÜwqð¼&#xc;&#x97;¨ãEm¢|ï&#x1a;â&#x83;&apos;&#x2;*u,:&#x8a;</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+              <elementProp name="F" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.name">F</stringProp>
+                <stringProp name="Argument.value"></stringProp>
+                <stringProp name="Argument.metadata"></stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">log.tbs.qq.com</stringProp>
+          <stringProp name="HTTPSampler.port"></stringProp>
+          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+          <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          <stringProp name="HTTPSampler.protocol">http</stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+          <stringProp name="HTTPSampler.path">/ajax?c=dl&amp;k=61308a0c81243356a7437d6a6ed69307</stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <boolProp name="HTTPSampler.monitor">false</boolProp>
+          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP信息头管理器" enabled="true">
+            <collectionProp name="HeaderManager.headers">
+              <elementProp name="Content-Type" elementType="Header">
+                <stringProp name="Header.name">Content-Type</stringProp>
+                <stringProp name="Header.value">application/x-www-form-urlencoded</stringProp>
+              </elementProp>
+              <elementProp name="Accept-Encoding" elementType="Header">
+                <stringProp name="Header.name">Accept-Encoding</stringProp>
+                <stringProp name="Header.value">gzip</stringProp>
+              </elementProp>
+              <elementProp name="User-Agent" elementType="Header">
+                <stringProp name="Header.name">User-Agent</stringProp>
+                <stringProp name="Header.value">Dalvik/2.1.0 (Linux; U; Android 9; CLT-AL00 Build/HUAWEICLT-AL00)</stringProp>
+              </elementProp>
+            </collectionProp>
+          </HeaderManager>
+          <hashTree/>
+        </hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="66 /APS/r?ver=5.0&amp;q=0&amp;csid=206f65ec-8c7f-4654-8c33-6faff6837b84" enabled="true">
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">&#x1f;�&#x8;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x1;\&#x2;��;�L��=������F&#x2;�6Ĵ4��;:&#x7f;������&#xd;
+)�&#x13;1������&#x5;&#x8;z�k�A��&#x1a;� ��&gt;�&gt;V&#x10;�|¶�̕�4AܤϠDg�6���&#x11;���1í�&#x7f;&#x1b;d,0�&#x11;��&#x10;]^H�t�à�3&#xd;�9&#x1c;�ո�&#x15;@�%�&apos;f!+���� &#x15;}/�� �Mv���K�����mi�;�}ZE.yOL&#x17;&#x12;`����&#x15;�?`ab���`;t�`�&#x12;��3Ɇ�&#x8;ddS&#x1b;�h�o�c����y.��&#x18;o&#x1;��r&lt;s��ӆAz�yL��?k�f&#x1f;��rҴ����`u&#xb;),��F��S3^��0���&#x11;x�{�g,�O݇&#x1c;U��l�&#x7;&#x1f;�L�3&#x6;l&#x1e;nCl��\g��@�B����r�oD�&#x8;��u�#��+�?&#xe;m&#xf;��&#x5;��L[�&#xe;����Y�&#x2;����I&#xb;�&#xb;I�E&#x1b;cch&#x7f;&#x1b;��T�խ^�ye&#x10;��9n&#xe;�&#x1b;�	�/fnX�0&#x5;^#&#x12;_�i$����.&#x18;�=P�&#x3;��&#xc;u&#xf;&#xc;���FX&#x8;���e���J&#xd;
+�&#x2;&#x1b;&apos;�}��&gt;H7&#x16;B�̻�&#x14;�N�3Y&#xf;�V���&#xc;p͗�&#xb;�eV�&#x4;��hF�j�p@!�n�վٳ��&#x1;��=H|I��&#x1d;K�&#x1e;l��R]&quot;&#x1;�=�l&#x0;�E~����g��Y�)��2;U���j��D�O���g�&#x0;_��`Յ&#x7f;��ǫ��S΅�&#x10;&#x1c;�&#x7;r�-4��[�&#x14;�&#x1a;)&apos;��͋U�ſmbR�&#x18;&#x12;�M&#x7;Od�L�`��	M\&#x2;&#x0;&#x0;</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">aps.amap.com</stringProp>
+          <stringProp name="HTTPSampler.port"></stringProp>
+          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+          <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          <stringProp name="HTTPSampler.protocol">http</stringProp>
+          <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
+          <stringProp name="HTTPSampler.path">/APS/r?ver=5.0&amp;q=0&amp;csid=206f65ec-8c7f-4654-8c33-6faff6837b84</stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <boolProp name="HTTPSampler.monitor">false</boolProp>
+          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP信息头管理器" enabled="true">
+            <collectionProp name="HeaderManager.headers">
+              <elementProp name="gzipped" elementType="Header">
+                <stringProp name="Header.name">gzipped</stringProp>
+                <stringProp name="Header.value">1</stringProp>
+              </elementProp>
+              <elementProp name="Content-Type" elementType="Header">
+                <stringProp name="Header.name">Content-Type</stringProp>
+                <stringProp name="Header.value">application/octet-stream</stringProp>
+              </elementProp>
+              <elementProp name="Accept-Encoding" elementType="Header">
+                <stringProp name="Header.name">Accept-Encoding</stringProp>
+                <stringProp name="Header.value">gzip</stringProp>
+              </elementProp>
+              <elementProp name="et" elementType="Header">
+                <stringProp name="Header.name">et</stringProp>
+                <stringProp name="Header.value">111</stringProp>
+              </elementProp>
+              <elementProp name="User-Agent" elementType="Header">
+                <stringProp name="Header.name">User-Agent</stringProp>
+                <stringProp name="Header.value">Dalvik/2.1.0 (Linux; U; Android 9; CLT-AL00 Build/HUAWEICLT-AL00)</stringProp>
+              </elementProp>
+            </collectionProp>
+          </HeaderManager>
+          <hashTree/>
+        </hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="67 /hw?84" enabled="true">
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="R&#x80;ç¡§]5µË¹8Ñ&#x9e;øõlC¢zÚ&#x6;¼KaPd§3­&gt;ùç&#x7f;&#x1;&#x2;ì&#xe;È" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.name">R&#x80;ç¡§]5µË¹8Ñ&#x9e;øõlC¢zÚ&#x6;¼KaPd§3­&gt;ùç&#x7f;&#x1;&#x2;ì&#xe;È</stringProp>
+                <stringProp name="Argument.value"></stringProp>
+                <stringProp name="Argument.metadata"></stringProp>
+              </elementProp>
+              <elementProp name="4ì/åQM,©¹ÔºxÇ§u&quot;&#x8e;y@¡ìÚuH²&#x9f;»Ï_&lt;­&#x0;&#xe;@¾&#x95;ôeæ&#x87;i7~&#x8a;C&#x81;wª&#x14;\¡&#x4;ÿ¢ùIs{YXñÑ&#xe;¼8ÁáCS&#x95;Ñ&#x95;;O%þ&#x86;&#x9d;&#x7f;ñ&#x84;I¸Rf&#x86;ß&#x1;îõ&#x88;ÙcS&#x88;04w&#x14;q-B" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.name">4ì/åQM,©¹ÔºxÇ§u&quot;&#x8e;y@¡ìÚuH²&#x9f;»Ï_&lt;­&#x0;&#xe;@¾&#x95;ôeæ&#x87;i7~&#x8a;C&#x81;wª&#x14;\¡&#x4;ÿ¢ùIs{YXñÑ&#xe;¼8ÁáCS&#x95;Ñ&#x95;;O%þ&#x86;&#x9d;&#x7f;ñ&#x84;I¸Rf&#x86;ß&#x1;îõ&#x88;ÙcS&#x88;04w&#x14;q-B</stringProp>
+                <stringProp name="Argument.value"></stringProp>
+                <stringProp name="Argument.metadata"></stringProp>
+              </elementProp>
+              <elementProp name="o&#x9f;&#x91;#aÙIÆ~ð9&#x7;tc&#x16;ÀH&#x8d;G&#x8e;j.ËëÄ -¶k~&#x84;&#x17;ÄÔ&#xb;×tM&#x94;|&#x84;³¶CS¾&#x81;NÛ" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.name">o&#x9f;&#x91;#aÙIÆ~ð9&#x7;tc&#x16;ÀH&#x8d;G&#x8e;j.ËëÄ -¶k~&#x84;&#x17;ÄÔ&#xb;×tM&#x94;|&#x84;³¶CS¾&#x81;NÛ</stringProp>
+                <stringProp name="Argument.value">à8&#x8;®ó &#x9f;&#x89;&#x12;&#x87;z&#x9b;ÇÔv¡db7&#x87;Û1õ½Üëí&lt;&quot;&#x1e;Ô¡±¯J&#x8d;ß¸àe¡&#xf;8r&#x81;&#x3;-s&#x85;7&#xd;&#x94;µ&#x97;È®×¾º&#x86;Q§5n°î±BÙ$=&#x2;&#x9b;(©yÑ&#x1c;,&#x1e;¡{ô&#x9e;õ´î8»f³&#x11;Õ</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+              <elementProp name="&#x18;÷P&#x13;¢&#x92;37&lt;&#x10;1À,.^&#x15;É&#x9;&#x1d;&#x93;&#x1f;~[Óm&#x7f;&#x9c;­&#xd;òg,#·GÙÄ]&#x8; ¤&#x8d;L&#x9a;&#x8e;&#x19;-2&quot;&lt;[&#x1e;Õßµ" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.name">&#x18;÷P&#x13;¢&#x92;37&lt;&#x10;1À,.^&#x15;É	&#x1d;&#x93;&#x1f;~[Óm&#x7f;&#x9c;­&#xd;òg,#·GÙÄ]&#x8; ¤&#x8d;L&#x9a;&#x8e;&#x19;-2&quot;&lt;[&#x1e;Õßµ</stringProp>
+                <stringProp name="Argument.value">&#x9b;=:Çèó®&#x3;&#x9b;&#x0;&#x3;Kµ&apos;,¥[¢&#x2;&#x10;&#x15;AX[[</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">restlbs.map.qq.com</stringProp>
+          <stringProp name="HTTPSampler.port">443</stringProp>
+          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+          <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          <stringProp name="HTTPSampler.protocol">https</stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+          <stringProp name="HTTPSampler.path">/hw?84</stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <boolProp name="HTTPSampler.monitor">false</boolProp>
+          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP信息头管理器" enabled="true">
+            <collectionProp name="HeaderManager.headers">
+              <elementProp name="Content-Type" elementType="Header">
+                <stringProp name="Header.name">Content-Type</stringProp>
+                <stringProp name="Header.value">application/x-www-form-urlencoded</stringProp>
+              </elementProp>
+              <elementProp name="Halley" elementType="Header">
+                <stringProp name="Header.name">Halley</stringProp>
+                <stringProp name="Header.value">3A0724361698D975E7DD5CF929A8C11A-1-1560247538054</stringProp>
+              </elementProp>
+              <elementProp name="Accept-Encoding" elementType="Header">
+                <stringProp name="Header.name">Accept-Encoding</stringProp>
+                <stringProp name="Header.value">gzip</stringProp>
+              </elementProp>
+              <elementProp name="User-Agent" elementType="Header">
+                <stringProp name="Header.name">User-Agent</stringProp>
+                <stringProp name="Header.value">Dalvik/2.1.0 (Linux; U; Android 9; CLT-AL00 Build/HUAWEICLT-AL00)</stringProp>
+              </elementProp>
+            </collectionProp>
+          </HeaderManager>
+          <hashTree/>
+        </hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="68 /ajax?c=pu&amp;tk=fe4099cdd3e4e4b377327ca98482a8bb5b7d7a37f5a2ab8ca475cc9b17b82cc866fe6ba5b8cb0715ea1c753095564320" enabled="true">
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="6&#x91;é&#x8d;-YVmn&#x90;½&#x93;|&#xe;Úc-(Û(îÑ&#x93;Õ¼Ú&#x1e;&#x8e;ú&#x8e;²56¥&#x3;&gt;%µê÷nÄ&#x9b;P&quot;qÕrÕÏ¦ñ²{æ0Ax&#x8d;&#x12;&#x8c;¼±þ#º&#xe;[7&#x92;þWú*&#x1c;&#x6;æÍ9þRñ &#x87;xÈß&#x1c;&#x94;÷xØäZ&#x13;&#x5;ñ¥¼ók&#x1e;³&#x9e;&#x91;#äÍ&#x89;&#x89;^Mä&#x14;#½X»X*^&#x15;2&#x18;°&#x1f;&#x93;&#x96;8~&#x90;º7ß*&#x9d;8g´pÌ¶&#x1d;&#x91;J&quot;&#x1c;&#x8a;Í&#x90;¢É&#x1f;¼-Ï&#x9d;Î&#x6;&#xd;þy&#x81;ËË á´XÜ*&#x8;:&#x16;P&lt;ÿS&#x98;´¹&#x5;-^Ò¯2&#x7f;¼&#x1a;Úëà#º&#x8f;â&#x17;Ü&#x19;ª&#x90;&#x9e;&#x83;&#x19;&#x9a;{^Ë&#x95;8&#x19;ç&#x8c;8h&#x9f;á&#x10;&#xb;(&#x8d;@&#x2;®_¤&#x5;LâÂ" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.name">6&#x91;é&#x8d;-YVmn&#x90;½&#x93;|&#xe;Úc-(Û(îÑ&#x93;Õ¼Ú&#x1e;&#x8e;ú&#x8e;²56¥&#x3;&gt;%µê÷nÄ&#x9b;P&quot;qÕrÕÏ¦ñ²{æ0Ax&#x8d;&#x12;&#x8c;¼±þ#º&#xe;[7&#x92;þWú*&#x1c;&#x6;æÍ9þRñ &#x87;xÈß&#x1c;&#x94;÷xØäZ&#x13;&#x5;ñ¥¼ók&#x1e;³&#x9e;&#x91;#äÍ&#x89;&#x89;^Mä&#x14;#½X»X*^&#x15;2&#x18;°&#x1f;&#x93;&#x96;8~&#x90;º7ß*&#x9d;8g´pÌ¶&#x1d;&#x91;J&quot;&#x1c;&#x8a;Í&#x90;¢É&#x1f;¼-Ï&#x9d;Î&#x6;&#xd;þy&#x81;ËË á´XÜ*&#x8;:&#x16;P&lt;ÿS&#x98;´¹&#x5;-^Ò¯2&#x7f;¼&#x1a;Úëà#º&#x8f;â&#x17;Ü&#x19;ª&#x90;&#x9e;&#x83;&#x19;&#x9a;{^Ë&#x95;8&#x19;ç&#x8c;8h&#x9f;á&#x10;&#xb;(&#x8d;@&#x2;®_¤&#x5;LâÂ</stringProp>
+                <stringProp name="Argument.value">1Áìæure»&#x7;&#x97;z.á³~ÙG)&#x9e;&#x95;jÈ¹&#x82;®?KrFpgèç]ùçÓxÜ¥ÉQêÇo&#x83;±d¢&#x9e;x&#xc;&#x7;&#xc;(±&#x8e;}ÊLS&#x80;`&#x17;&#x8f;&#x16;¡`&#x81;aû&#x86;¤³&#x1d;]&lt; ÛRê&#x5;}ü_bÒYëØß&#x89;	 g©Â³&gt;t1£ò&#xb;8Â°&#x93;}ÀË$ôÔT×¯&#x8;[&#x10;ã&#x90;&#x9a;ì/</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+                <boolProp name="HTTPArgument.use_equals">true</boolProp>
+              </elementProp>
+              <elementProp name="Á&#x18;ba§y&#x9c;&#x90;&#x8a;&#x91;w&#x2;&#x86;1&#xd;&#xa;ô&#x1e;&#x14;&#x1d;Úx&#x91;7&#x9f;Ç&#x4;GâGIÔ:v×8e&#x80; ý&#x11;&#x18;L&#xc;$;&#x4;&#x12;®&#x15;jü&#x8a;&#x12;&#x9d;)&#x9e;&#x85;¨-6.&#x84;Â¶âñ&#x8f;Ä&#x1a;öT&gt;i0&#x92;&gt;&#x1d;&#x5;Pr¢&#x9;é&#x9a;´~&#x86;m&#x19;&#x98;å&#xe;wVÌ]J SRóIT&#x87;¼&#x17;þ&#x86;°¯&apos;nsi&#x8f;&#xf;Y½û&#x89;&#x81;&#x93;üË|&#x1c;û&#x1b;Ì%Ô&#x1d;%_&#x1a;H¡G¾Ñ&#xc;&#x18;&#x81;Ìáÿ÷&#x4;Ìÿ ¦&#x8e;&#x98;¹¦&#x1d;Ò_&#x8a;&#x90;ÁíJ¸µÃ&#x0;&#x1a;;&#x8;¬&lt;&#x10;»*çôï&gt;ý&#x1c;&#xc;&#x17;&#x2;¸rÂ}Ð£Mr&#x3;ï¥lÇ£" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.name">Á&#x18;ba§y&#x9c;&#x90;&#x8a;&#x91;w&#x2;&#x86;1&#xd;
+ô&#x1e;&#x14;&#x1d;Úx&#x91;7&#x9f;Ç&#x4;GâGIÔ:v×8e&#x80; ý&#x11;&#x18;L&#xc;$;&#x4;&#x12;®&#x15;jü&#x8a;&#x12;&#x9d;)&#x9e;&#x85;¨-6.&#x84;Â¶âñ&#x8f;Ä&#x1a;öT&gt;i0&#x92;&gt;&#x1d;&#x5;Pr¢	é&#x9a;´~&#x86;m&#x19;&#x98;å&#xe;wVÌ]J SRóIT&#x87;¼&#x17;þ&#x86;°¯&apos;nsi&#x8f;&#xf;Y½û&#x89;&#x81;&#x93;üË|&#x1c;û&#x1b;Ì%Ô&#x1d;%_&#x1a;H¡G¾Ñ&#xc;&#x18;&#x81;Ìáÿ÷&#x4;Ìÿ ¦&#x8e;&#x98;¹¦&#x1d;Ò_&#x8a;&#x90;ÁíJ¸µÃ&#x0;&#x1a;;&#x8;¬&lt;&#x10;»*çôï&gt;ý&#x1c;&#xc;&#x17;&#x2;¸rÂ}Ð£Mr&#x3;ï¥lÇ£</stringProp>
+                <stringProp name="Argument.value">ÏR&#x83;&#x1e;yÀ8b&#x13;&#x96;Fì5Ó \±¶À&#xb;&#x1c;¹&#x85;=x</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+                <boolProp name="HTTPArgument.use_equals">true</boolProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">log.tbs.qq.com</stringProp>
+          <stringProp name="HTTPSampler.port"></stringProp>
+          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+          <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          <stringProp name="HTTPSampler.protocol">http</stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+          <stringProp name="HTTPSampler.path">/ajax?c=pu&amp;tk=fe4099cdd3e4e4b377327ca98482a8bb5b7d7a37f5a2ab8ca475cc9b17b82cc866fe6ba5b8cb0715ea1c753095564320</stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <boolProp name="HTTPSampler.monitor">false</boolProp>
+          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
+            <collectionProp name="Asserion.test_strings"/>
+            <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+            <boolProp name="Assertion.assume_success">false</boolProp>
+            <intProp name="Assertion.test_type">2</intProp>
+          </ResponseAssertion>
+          <hashTree/>
+          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP信息头管理器" enabled="true">
+            <collectionProp name="HeaderManager.headers">
+              <elementProp name="Content-Type" elementType="Header">
+                <stringProp name="Header.name">Content-Type</stringProp>
+                <stringProp name="Header.value">application/x-www-form-urlencoded</stringProp>
+              </elementProp>
+              <elementProp name="Accept-Encoding" elementType="Header">
+                <stringProp name="Header.name">Accept-Encoding</stringProp>
+                <stringProp name="Header.value">gzip</stringProp>
+              </elementProp>
+              <elementProp name="User-Agent" elementType="Header">
+                <stringProp name="Header.name">User-Agent</stringProp>
+                <stringProp name="Header.value">Dalvik/2.1.0 (Linux; U; Android 9; CLT-AL00 Build/HUAWEICLT-AL00)</stringProp>
+              </elementProp>
+            </collectionProp>
+          </HeaderManager>
+          <hashTree/>
+        </hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="69 /ajax?c=dl&amp;k=61308a0c81243356a7437d6a6ed69307" enabled="true">
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="&#x87;&apos;&#x17;&#x82;¾&#x90;¯&#x90;&#x9e;&#x2;¿&#x9d;&apos;ìN&#x8a;ojËóÖH&#x7f;Æp{?(&#x93;íÖä£°dÁjj&#x81;&#x15;&#x1b;ãsÉá&#x90;s!Äd&#x85;&#x6;A{k.9ég¢&#x93;Ä|­FW&gt;&#x1;&#xb;&#x11;¥LÛò&#x8c; %Û¼Ù&#x8;&#x1a;&#x87;¼&#x14;·kLÞ[&#x9f;|&#x9f;&#x5;ñæ6¿kæN&#x86;ÄmgIë?ç6À&#x8f;FPBs,&#x89;Î&#x88;&#x98;ìSì¾&#x1;X&quot;&#x10;&#x1f;«&#x83;Ï;&#x84;dçÏ«&#x9b;&#x1;&#x8c;&#x9c;&#x1;$&#x84;n&#x19;&#x1b;&#x18;ÕÉQ&#x1c;2!Z¾&#xf;9H#Íd" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.name">&#x87;&apos;&#x17;&#x82;¾&#x90;¯&#x90;&#x9e;&#x2;¿&#x9d;&apos;ìN&#x8a;ojËóÖH&#x7f;Æp{?(&#x93;íÖä£°dÁjj&#x81;&#x15;&#x1b;ãsÉá&#x90;s!Äd&#x85;&#x6;A{k.9ég¢&#x93;Ä|­FW&gt;&#x1;&#xb;&#x11;¥LÛò&#x8c; %Û¼Ù&#x8;&#x1a;&#x87;¼&#x14;·kLÞ[&#x9f;|&#x9f;&#x5;ñæ6¿kæN&#x86;ÄmgIë?ç6À&#x8f;FPBs,&#x89;Î&#x88;&#x98;ìSì¾&#x1;X&quot;&#x10;&#x1f;«&#x83;Ï;&#x84;dçÏ«&#x9b;&#x1;&#x8c;&#x9c;&#x1;$&#x84;n&#x19;&#x1b;&#x18;ÕÉQ&#x1c;2!Z¾&#xf;9H#Íd</stringProp>
+                <stringProp name="Argument.value">¯kMTéÉ&#x16;¬¾&#x96;Pó£?aÁú=&#x19;&gt;ã&#xb;&#x0;&#x1b;ß&#x84;ºÕA 	à%Ú&#x92;äM&#x10;ð±&#x8a;	Zç×&#x3;þq&#x2;·ÿ:2÷Õ&#x0;vÌR&#x17;Ògñ]¿¬¼?×öRâ&#x17;K&#x16;E&#x96;]uZ&#x81;c&#x10;År&#x11;4*jMF&#x2;&#x94;d¾Áæ&#x85;f`t&#x89;&#x90;]gZÒ­&#x8f;JÜ&#x97;ÎQ8CY&gt;&#x98;¿&#x93;%&#x83;FÂîzã­àRúÉdÓE&#xc;(½RaÿG&#x1b;å&#x99; ó~Ôlwò&#x88;&#xf;Õ¦9üù1¾:&#x9f;ÿV`lûÄ{&#x8a; &#x8;Ø1&#x94;É}ÛÁ&#x85;c@ê&#x7;²t³mc­r^&#x1a;&#x13;#¡&#x13;4&#x86;¤&#x92;sö&#x88;&#x92;ÁúoCÚäFÐÒå&#x8d;&#x5;½[ê&#x98;i(&#x8d;ÌÌ^C&#x0;õ&#x3;þ&#xf;a§Z&#x14;;í&#x7f;</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+                <boolProp name="HTTPArgument.use_equals">true</boolProp>
+              </elementProp>
+              <elementProp name="¿s°5¸7áfé&#x7;¬NIj&#x8e;âÒ&#x8a;Þë¾&#x9f;uÏ&#x19;&#x18;&#x11;wSÞ£&#x13;[lå)Åp¯&#x8c;&#x18;ú&#x9a;h¶&#x1;Þ&quot;^&#x99;ïQÀk@H&#x85;" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.name">¿s°5¸7áfé&#x7;¬NIj&#x8e;âÒ&#x8a;Þë¾&#x9f;uÏ&#x19;&#x18;&#x11;wSÞ£&#x13;[lå)Åp¯&#x8c;&#x18;ú&#x9a;h¶&#x1;Þ&quot;^&#x99;ïQÀk@H&#x85;</stringProp>
+                <stringProp name="Argument.value">¼®&quot;þZÌ&#x94;r]a&#x9a;hÃIÌ^C&#x0;õ&#x3;þ&#xf;a§Z&#x14;;í&#x7f;</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+                <boolProp name="HTTPArgument.use_equals">true</boolProp>
+              </elementProp>
+              <elementProp name="¿s°5¸7áfé&#x7;¬NIj&#x8e;âÒ&#x8a;Þë¾&#x9f;uÏ&#x19;&#x18;&#x11;wSÞ£&#x13;[lå)Åp¯&#x8c;&#x18;ú&#x9a;h¶&#x1;Þ&quot;©à&#x99;&#x2;o4½M`m&#x8e;¯&#x99;÷¯¾&#x1d;&#x8b;,¶â¬~äR&#x99;&#x1d;&#xf;¯ü*ôV&#xc;&#x96;$&#x9a;0TÓ!&#xf;Á+½&#x87;NS&#xe;Ë&#x8d;Ç!ST&#x1e;Ñ÷G0ñ&#x8c;û0&#x3;yã&#x90;§&#x8f;ùs6Ó©Á&#x11;&#x92;,_&#x5;£cuqµxÛ&#x9e;îª&#x1a;&#x9d;F&#x7f;ôh&#x92;\mÏ[ß&#x9f;1²EýõxÍ&#x8;µêlMÎ}\ªú8&#x11;Å&#x1a;1üãëü&quot;ç£æ,©&#x5;&#x9c;,½Çâ±Ëá&quot;6Rþ²&#x81;ï¥Pì&#x1b;RÇù\¨£ÓÎõG*&#x98;Ã²þý&#x9e;\&#x15;¡&#x18;ú&#x9a;h¶&#x1;Þ&quot;&#x8;A&#x8d;üá0YI[&#x8f;Sæ¶æ(q&#x93;F&#x90;&#x8e; ma&#x8d;Ôÿ&#x82;ÜÚPµ&#x4;&gt;³²&#x1a;&#x89;&#xf;Û&#x81;Ó;Ç&#x12;8º{&#x92;U*â5íJÊà&#x9b;!À6:Ô" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.name">¿s°5¸7áfé&#x7;¬NIj&#x8e;âÒ&#x8a;Þë¾&#x9f;uÏ&#x19;&#x18;&#x11;wSÞ£&#x13;[lå)Åp¯&#x8c;&#x18;ú&#x9a;h¶&#x1;Þ&quot;©à&#x99;&#x2;o4½M`m&#x8e;¯&#x99;÷¯¾&#x1d;&#x8b;,¶â¬~äR&#x99;&#x1d;&#xf;¯ü*ôV&#xc;&#x96;$&#x9a;0TÓ!&#xf;Á+½&#x87;NS&#xe;Ë&#x8d;Ç!ST&#x1e;Ñ÷G0ñ&#x8c;û0&#x3;yã&#x90;§&#x8f;ùs6Ó©Á&#x11;&#x92;,_&#x5;£cuqµxÛ&#x9e;îª&#x1a;&#x9d;F&#x7f;ôh&#x92;\mÏ[ß&#x9f;1²EýõxÍ&#x8;µêlMÎ}\ªú8&#x11;Å&#x1a;1üãëü&quot;ç£æ,©&#x5;&#x9c;,½Çâ±Ëá&quot;6Rþ²&#x81;ï¥Pì&#x1b;RÇù\¨£ÓÎõG*&#x98;Ã²þý&#x9e;\&#x15;¡&#x18;ú&#x9a;h¶&#x1;Þ&quot;&#x8;A&#x8d;üá0YI[&#x8f;Sæ¶æ(q&#x93;F&#x90;&#x8e; ma&#x8d;Ôÿ&#x82;ÜÚPµ&#x4;&gt;³²&#x1a;&#x89;&#xf;Û&#x81;Ó;Ç&#x12;8º{&#x92;U*â5íJÊà&#x9b;!À6:Ô</stringProp>
+                <stringProp name="Argument.value">Á&#x8f;&gt;&#x5;:I&#x89;h&#x97;)÷&#x1f;ø¸&#xb;^%#P&#xf;¼*x&#x9c;ßÂ=åfÝ?&#x82;èÆ&#x0;&#x91;={_Z?&#x8b;­÷&#x82;ò9WÝ£&#x96;ûa:&#x9d;4&#x1c;Ë{rªâ&#x95;$eëü&quot;ç£æ,©&#x5;&#x9c;,½Çâ±Ëá&quot;6Rþ²&#x81;ïm&#x92;&#x1d;&#x3;AMW?3°hlÊÄX«s÷¬l&#x7;s8&lt;Ðÿ&#x9c;réøUæ¦.&#xb;&#x8a;ëÚ8êá»_&#x4;ßQwuÆ&#x0;&#x91;={_Z?&#x8b;­÷&#x82;ò9WÝç&#x1c;ã&#x15;Æ
+&#x1c;Õú8&#x11;Å&#x1a;1üãëü&quot;ç£æ,©&#x5;&#x9c;,½Çâ±Ëá&quot;6Rþ²&#x81;ïm&#x92;&#x1d;&#x3;AMW?3°hlÊÄX«s÷¬l&#x7;s8&lt;Ðÿ&#x9c;réøUæ¦.&#xb;&#x8a;ëÚ8êÌ6äq&#x92;=Ô&#x87;&#x80;ØpC´à&#x84;ë&#x1c;:@¨ì¼ï&#x88;8þ
+ó&#x81;&#x1;Â¥&#x1c;!8	&#x8b;êÙMÔÿ&#x82;ÜÚPµ&#x4;h×Å9RÇî&#x90;û\É¡¯&#x80;QÒØ&#x8b;f&quot;£&apos;­»&#x93;Ãuqy8+l~øgö&#x8a;\o&#x8c;Ø&#x9a;rlO&#x92;G.Åò,&#x17;ÇÇ&#x1a;X´&#x8d;	¡&#x93;&#x98;æ#[ÌÔ¿d&#x92;ï&#x7; &#x1a;çbn&#x9d;&#x92;#¿ÛÖÐ&#x7f;&#x95;&#x13;H</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+                <boolProp name="HTTPArgument.use_equals">true</boolProp>
+              </elementProp>
+              <elementProp name="÷P9í&#x88;®Ë+ÿL |b&#x14;µMç&apos;Ì5&#x81;7(Ë&#x7f;ÊÁÈÈ§¨û&#x9;&#x96;x]&#x85;ñ&#x9b;&#x1;Õäµñ©dËu¤ÇÂd]$ /W{«mÍ&#x1a;&#x92;ÚòF&#x85;&#x5;&#x95;ùm6&#x9b;-&#x18;5í&#x6;¡de4&#x96;Ç»r&#x89;c&#x1;T&#xa;&#x8f;3-Þ&#x9a;Ø_¶ô&#x8e;íGq&#x86;ä&#xc;%f&#x81;`øà!Âjñ#¹Å+W&quot;&#x97;Fia&#x81;¿C&#x1f;&#x84;#Õ­hB¾¤¡AtÜ~¿3BÉb&#x91;PGÄ-¦&#x16;ìI&#xa;&#x19;êk¾D jé»Â|(ºã0&#x92;ôõ&#x8f;Es\©ÊÁ&#x6;}ÎÍõL&#x91;u¤ÇÂd]$ ah&#xa;H&#xe;Z+©%4ðZÞ&#xd;v&#x10;A©_í§¾¥ï&#x8f;ÏNû &#xb;X&#xa;¼]ØT#&#x1c;ËÑ&#x7f;DÑnó{äÿ]&#x87; l&#x99;Þ Ï&#x8;¶&#x86;Ö" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.name">÷P9í&#x88;®Ë+ÿL |b&#x14;µMç&apos;Ì5&#x81;7(Ë&#x7f;ÊÁÈÈ§¨û	&#x96;x]&#x85;ñ&#x9b;&#x1;Õäµñ©dËu¤ÇÂd]$ /W{«mÍ&#x1a;&#x92;ÚòF&#x85;&#x5;&#x95;ùm6&#x9b;-&#x18;5í&#x6;¡de4&#x96;Ç»r&#x89;c&#x1;T
+&#x8f;3-Þ&#x9a;Ø_¶ô&#x8e;íGq&#x86;ä&#xc;%f&#x81;`øà!Âjñ#¹Å+W&quot;&#x97;Fia&#x81;¿C&#x1f;&#x84;#Õ­hB¾¤¡AtÜ~¿3BÉb&#x91;PGÄ-¦&#x16;ìI
+&#x19;êk¾D jé»Â|(ºã0&#x92;ôõ&#x8f;Es\©ÊÁ&#x6;}ÎÍõL&#x91;u¤ÇÂd]$ ah
+H&#xe;Z+©%4ðZÞ&#xd;v&#x10;A©_í§¾¥ï&#x8f;ÏNû &#xb;X
+¼]ØT#&#x1c;ËÑ&#x7f;DÑnó{äÿ]&#x87; l&#x99;Þ Ï&#x8;¶&#x86;Ö</stringProp>
+                <stringProp name="Argument.value">ð
+&#x8c;FF&#xd;âq&#x9c;&#x1;ZëÒÊ-?UFëºTF4ãX$&#x11;Þá2£SÓ6FÒìk&#x8b;Æ5&#x7f; &#x91;&#x9a;Ï@v&#x5;&#x99;Íåëùm&#x89;ÚEé¸©KÜBp·&#x1e;ëü&quot;ç£æ,©&#x5;&#x9c;,½Çâ±Ëá&quot;6Rþ²&#x81;ï¥Pì&#x1b;RÇù\&#x8c;8²:òúa~OJ)²&gt;Æø8f(t9A&#x96;&#xf;ÛYREP ìO&#x7f;JÝº.Ç&#x86;®YÔÿ&#x82;ÜÚPµ&#x4;&gt;³²&#x1a;&#x89;&#xf;Û&#x81;Ó;Ç&#x12;8º{&#x92;U*â5íJÊàÎ­ÎÜcoñG&#xe;&#x91;ß±\b&#x86;ä&#xe;&#x11;ñs«&#x95;&#x5;&#x86;W`LXÇ|Ìë&#x19;&#x18;&#x11;wSÞ£&#x13;&#x2;ùàBj&#x89;Ô&#x8a;Ù$h#ÃàX&#x17;Ôÿ&#x82;ÜÚPµ&#x4;&gt;³²&#x1a;&#x89;&#xf;Û&#x81;Ó;Ç&#x12;8º{&#x92;U*â5íJÊàÎ­ÎÜcoñG&#xe;&#x91;ß±\b&#x86;ä&#xe;&#x11;ñs«&#x95;&#x5;&#x86;
+i3&#x12;¸ùÄ¼&#x8e;%b­­y²g&#x91;&#x95;&#x18;Í@ò+¯ËË³AóA&#x86;&#x9b;º&#x86;8Ê&#xb;Æ¸g\&#xb;óõùº&#x97;&#x1b;IK|UÝµíZäÜµ^Ð&#x86;)²ý&#x6;&lt;%&#x92;¹õ^Uù&#x1f;&#x97;×½í¹¡&#x4;êð4ÃðR§Ó&#x1e;¥è&#x10;ö³üLÁA&#x83;5W&#x8a;&#x91;&#x93;Òz&#x12;Ì·&#x85;óï&#x13;ÓAÞ&#xd;?RN&#x9b;Ê&#x12;µ fÌ^C&#x0;õ&#x3;þ&#xf;a§Z&#x14;;í&#x7f;</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+                <boolProp name="HTTPArgument.use_equals">true</boolProp>
+              </elementProp>
+              <elementProp name="¿s°5¸7áfé&#x7;¬NIj&#x8e;âÒ&#x8a;Þë¾&#x9f;uÏ&#x97;Û&lt;Â&#x14;&#x83;Á&#x8e;&#x14;±&#xf;¹&#x83;ß&#x15;¡W`LXÇ|Ìë&#x97;Û&lt;Â&#x14;&#x83;Á&#x8e;º&#xc;+¥ÅøR%í&#x85;c¤g&lt;4nÕ¦9üù1¾:&#x9f;ÿV`lûÄ{&#x8a; &#x8;Ø1&#x94;É}ÛÁ&#x85;c@ê&#x7;²ý¾&#x97;" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.name">¿s°5¸7áfé&#x7;¬NIj&#x8e;âÒ&#x8a;Þë¾&#x9f;uÏ&#x97;Û&lt;Â&#x14;&#x83;Á&#x8e;&#x14;±&#xf;¹&#x83;ß&#x15;¡W`LXÇ|Ìë&#x97;Û&lt;Â&#x14;&#x83;Á&#x8e;º&#xc;+¥ÅøR%í&#x85;c¤g&lt;4nÕ¦9üù1¾:&#x9f;ÿV`lûÄ{&#x8a; &#x8;Ø1&#x94;É}ÛÁ&#x85;c@ê&#x7;²ý¾&#x97;</stringProp>
+                <stringProp name="Argument.value">&#x9f;¦×&#x1b;Æ&#x0;&#x91;={_Z?&#x8b;­÷&#x82;ò9WÝô&#x12;&#xb;KþiÃG&#x95;W&#x1;Öxý&#x1b;/s÷¬l&#x7;s8&lt;p&#x92;kn×iù£¢çz</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+                <boolProp name="HTTPArgument.use_equals">true</boolProp>
+              </elementProp>
+              <elementProp name="&#x83;Ï&#x2;ÏÌ^C&#x0;õ&#x3;þ&#xf;a§Z&#x14;;í&#x7f;" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.name">&#x83;Ï&#x2;ÏÌ^C&#x0;õ&#x3;þ&#xf;a§Z&#x14;;í&#x7f;</stringProp>
+                <stringProp name="Argument.value"></stringProp>
+                <stringProp name="Argument.metadata"></stringProp>
+              </elementProp>
+              <elementProp name="¿s°5¸7áfé&#x7;¬NIj&#x8e;âj&#x85;É§}²Æ¦&#x80;ØpC´à&#x84;ë&#x1c;:@¨ì¼ï&#x88;ýæáêõ" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.name">¿s°5¸7áfé&#x7;¬NIj&#x8e;âj&#x85;É§}²Æ¦&#x80;ØpC´à&#x84;ë&#x1c;:@¨ì¼ï&#x88;ýæáêõ</stringProp>
+                <stringProp name="Argument.value">µ¾&gt;wr&#xf;&#x2;i&#x1b;&#x85;&#x95;W&#x1;Öxý&#x1b;/s÷¬l&#x7;s8&lt;p&#x92;kn×iù£5b&#x87;ï&#x82;Ë¤ûÌ^C&#x0;õ&#x3;þ&#xf;a§Z&#x14;;í&#x7f;</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+                <boolProp name="HTTPArgument.use_equals">true</boolProp>
+              </elementProp>
+              <elementProp name="¿s°5¸7áfé&#x7;¬NIj&#x8e;âj&#x85;É§}²Æ¦&#x80;ØpC´à&#x84;ë&#x1c;:@¨ì¼ï&#x88;ýæáêõ" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.name">¿s°5¸7áfé&#x7;¬NIj&#x8e;âj&#x85;É§}²Æ¦&#x80;ØpC´à&#x84;ë&#x1c;:@¨ì¼ï&#x88;ýæáêõ</stringProp>
+                <stringProp name="Argument.value">µ¾&gt;wr&#xf;&#x2;i&#x1b;&#x85;&#x1a;bÐ¹W`§H&#x8f;&gt;&#x5;:I&#x89;h&#x97;)÷&#x1f;ø¸&#xb;^%&#x8a;¸ý9&#x8e;àeê~S&#x11;&#x9d;&#x89;ÍÂ{&#x85;&#x89;:G&#x1e;í´&#xf;05ô&#x10;z&#x80;=,×</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+                <boolProp name="HTTPArgument.use_equals">true</boolProp>
+              </elementProp>
+              <elementProp name="&#xb;&quot;ªBqÔ&#x8e;¬kí&#x1d;&#x82;Þ¢sE&#x7f;~¯ÀÆ-Ä&#x2;&#x16;õ&#x8d;1L%Ö&#x8a;ý&#x96;Év&#x9d;H1·9(&#xf;_&#x17;&#x87;®&#x5;&#x19;ÂYwÿ&#x1f;î&#x8a;Ã&#x88;©&#x16;§x~&#x84;&#x9f;¬&#x16;f&gt;Ý&#x8f;G&lt;Küþ&#x94;&#xd;³ôx&#x12;´âOu½®´¼Ê&#x95;&#xc;(v&#x16;¸Qð;:&#x8f;&#x3;&#x93;³&#x13;/&#x7f;.IÉ&#x5;¯êùÎð&#x99;&#x4;.öÏygÁ&#x7f;h×Å9RÇî&#x90;¥tÈ&#x5;ô&#x1b; nÓ&#x95;&#x9c;Ö&#x83;jTTµUõúµ`nm&#x1c;Þ]&quot;gÛ,öÒ&#x9;¦&#x90;ïÎ~" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.name">&#xb;&quot;ªBqÔ&#x8e;¬kí&#x1d;&#x82;Þ¢sE&#x7f;~¯ÀÆ-Ä&#x2;&#x16;õ&#x8d;1L%Ö&#x8a;ý&#x96;Év&#x9d;H1·9(&#xf;_&#x17;&#x87;®&#x5;&#x19;ÂYwÿ&#x1f;î&#x8a;Ã&#x88;©&#x16;§x~&#x84;&#x9f;¬&#x16;f&gt;Ý&#x8f;G&lt;Küþ&#x94;&#xd;³ôx&#x12;´âOu½®´¼Ê&#x95;&#xc;(v&#x16;¸Qð;:&#x8f;&#x3;&#x93;³&#x13;/&#x7f;.IÉ&#x5;¯êùÎð&#x99;&#x4;.öÏygÁ&#x7f;h×Å9RÇî&#x90;¥tÈ&#x5;ô&#x1b; nÓ&#x95;&#x9c;Ö&#x83;jTTµUõúµ`nm&#x1c;Þ]&quot;gÛ,öÒ	¦&#x90;ïÎ~</stringProp>
+                <stringProp name="Argument.value">ëÛ&#x1d;Ì &#x15;½Ç¢&#x80;&#x1;ûÏ&#x1d;&#x4;i&#x14;bvÆ)ÑU[&#x85;&#x15;&quot;]&#x81;¥&#x16;£c&#x95;É&#x90;&#xe;&#x96;&#x83;S&gt;ð&#x12;wÀ&#x1e;&#x3;pj&#x16;Ñ&#x1a;t&#x92;&#xb;&#x13;*fËÎ¯&#x85;&quot;ù+=±&#x94;yq&#xf;L¦&#x1;Ìì}~t^&lt;)s¦/Åp°¤±²ÿYþ&#x8e;,h×Å9RÇî&#x90;`p­&#xd;&#x87;&#x7f;^&#xc;·ÎùkÍ¬û&#x2;ì&#x96;Zp&#x95;i®&lt;¡&#x9d;v)ú&#x1f;5 J&#xe;A&#x84;È&#x8b;r&#x99;é¿+o&#x6;¶¼Ì¿ë-&#x11;ZÊ&#x98;¥î&#x1c;yºåÙ`_â­b&#x89;*&#xf;&#x8c;&#x14;9&#x8f;±¬{</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+                <boolProp name="HTTPArgument.use_equals">true</boolProp>
+              </elementProp>
+              <elementProp name="yÑ_Ám&#x1e;Iä®9½º#E&#x17;&#x8;äÆ&#x85;ïR nó2SæTÉ&#x9;&#x91;]íí&quot;h&#x18;F&#x1b;ã9MÌ^C&#x0;õ&#x3;þ&#xf;a§Z&#x14;;í&#x7f;" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.name">yÑ_Ám&#x1e;Iä®9½º#E&#x17;&#x8;äÆ&#x85;ïR nó2SæTÉ	&#x91;]íí&quot;h&#x18;F&#x1b;ã9MÌ^C&#x0;õ&#x3;þ&#xf;a§Z&#x14;;í&#x7f;</stringProp>
+                <stringProp name="Argument.value"></stringProp>
+                <stringProp name="Argument.metadata"></stringProp>
+              </elementProp>
+              <elementProp name="¿s°5¸7áfé&#x7;¬NIj&#x8e;âÒ&#x8a;Þë¾&#x9f;uÏÇ&#x91;G}Üµ÷&#x82;ûÃÖ2Ø¡Í¸&#x12;Ä&#x96;qøÕ&#x3;S" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.name">¿s°5¸7áfé&#x7;¬NIj&#x8e;âÒ&#x8a;Þë¾&#x9f;uÏÇ&#x91;G}Üµ÷&#x82;ûÃÖ2Ø¡Í¸&#x12;Ä&#x96;qøÕ&#x3;S</stringProp>
+                <stringProp name="Argument.value"></stringProp>
+                <stringProp name="Argument.metadata"></stringProp>
+              </elementProp>
+              <elementProp name="¢" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.name">¢</stringProp>
+                <stringProp name="Argument.value">&apos;&#x9c;&#x16;û*H	qzÆï&apos;ÌÕ¦9üù1¾:&#x9f;ÿV`lûÄ{&#x8a; &#x8;Ø1&#x94;É}ÛÁ&#x85;c@ê&#x7;²&#x80;Ù.	=Sþ&#x8b;Ås´f9£²C$a8&#x16;/dTÀh&#x92;\mÏ[ß&#x9f;&#xe;&#x91;ß±\b&#x86;ä­&#x92;z&#x8c;&#x1a;Ì&quot;ó&#x1e;{ /ç¸Å¯Õ¦9üù1¾:&#x9f;ÿV`lûÄ{&#x8a; &#x8;Ø1&#x94;É}ÛÁ&#x85;c@ê&#x7;²&#x80;Ù.	=Sþ&#x8b;Ås´f9£²C$a8&#x16;/dTÀTÌUM&#x2;!&#x89;ìz&#xe;Ý(¡áÃêã&#x80;j&#x86;§&#x9c;îFøº{
+Ë&#x81;ã¦L±&#xb;þ&gt;t Rª#¬v&#x92;ùê&#x2;ObÅ&#x5;l¦¦îîÕFé3V²Ïß&#x81;ä&#x90;&apos;5¦&#x98;»gséª»üÛ¿ÖASý&#x5;&#x9a;»&#x90;¼&#x17;b?ñµW¼&#x87;&#x91;I-%&#x9e;_&#x8;A&#x8d;üá0YI[&#x8f;Sæ¶æ(qei3hþ¦&#x8d;&#x85;Ôÿ&#x82;ÜÚPµ&#x4;&gt;³²&#x1a;&#x89;&#xf;Û&#x81;Ó;Ç&#x12;8º{&#x92;U*â5íJÊàÎ­ÎÜcoñG1²EýõxÍ&#x8;$a8&#x16;/dTÀh&#x92;\mÏ[ß&#x9f;1²EýõxÍ&#x8;&#x83;&#x91;	í&#xe;ÒRGh®ÃÏÒßxÜëü&quot;ç£æ,©&#x5;&#x9c;,½Çâ±Ëá&quot;6Rþ²&#x81;ïm&#x92;&#x1d;&#x3;AMW?3°hlÊÄX«s÷¬l&#x7;s8&lt;&#x9b;6ÞiÚp&#x80;4Î&#x82;&#x96;º»6¬O&#x80;ØpC´à&#x84;ë&#x1c;:@¨ì¼ï&#x88;8þ
+ó&#x81;&#x1;Â¥?sQ/&#x6;ó&apos;&#x1e;Ôÿ&#x82;ÜÚPµ&#x4;&gt;³²&#x1a;&#x89;&#xf;Û&#x81;Ó;Ç&#x12;8º{&#x92;U*â5íJÊà&#x9b;!À6:Ô=Á&#x8f;&gt;&#x5;:I&#x89;h&#x97;)÷&#x1f;ø¸&#xb;^%ºö&lt;)YÓÏ3 p&#x8e;³&#xb;&#x81;¾&#x94;&#x80;ØpC´à&#x84;ë&#x1c;:@¨ì¼ï&#x88;8þ
+ó&#x81;&#x1;Â¥×x	&#x9e;dïa&#x9d;Ôÿ&#x82;ÜÚPµ&#x4;&gt;³²&#x1a;&#x89;&#xf;Û&#x81;Ó;Ç&#x12;8º{&#x92;U*â5íJÊà&#x9b;!À6:Ô=Á&#x8f;&gt;&#x5;:I&#x89;h&#x97;)÷&#x1f;ø¸&#xb;^%ºö&lt;)YÓÏ3&#x7;·&#x13;y&#xc;îÎ&#x8c;&#x6;»6ðF=´¹Æ&#x0;&#x91;={_Z?&#x8b;­÷&#x82;ò9WÝ&apos;i&#x8a;*Ó&#x16;&#x17;È	Y¨þ&#x19;&#x1a;£&#x8e;&#x9a;»&#x87;T1&#x1c;6â.&#x92;ê&#x8f; ¦Dd&#x3;ï&quot;&#x1c;&#x80;&#x1a;kh&quot;g°eà}&#x9f;£Z&#x3;áÊ&#x5;&#x18;¬&#x8e;&#x10;3Êí!?&#x88;&#x97;¯ÃpdNß&#x13;ÈH&#x16;&lt;`ä(_&#x8e;¥\¾µÀ¦&#x80;K4á¾+ÞnÜwqð¼&#xc;&#x97;¨ãEm¢|ï&#x1a;â&#x83;&apos;ìm
+8&#x9e;²(l&#x95;×&#x9f;¬¹&#x5;&#x16;Mw&#x1f;&gt;&#x90;Z&#x19;¬Râþ¾nBß&#xf;Ä&#xf;&#x1c;g:oÚéýøM&#x5;~~æÌYµÐ&#x8a;û&#xf;-!`&#x80;Kçò]Ó&#x15;`{Z°&#x7;&#x87;A4Ô×&#x1f;&#x8a;×4&#x15;&#x89;xÁIt&#x85;Ù&#x94;3ÖÜpÒÛËê&#x82;à3ó1SPêwÜO½Æ\×&#x6;ID/q&#x99;&#x8d;&#x3;^Äv²&quot;Þ¯&#x80;ü:#&#x11;MQZ&#x1b;i</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+                <boolProp name="HTTPArgument.use_equals">true</boolProp>
+              </elementProp>
+              <elementProp name="ö¡b&#x11;$ßöÂÚn#xú¸û&#x9b;á&#x3;Ë&#x1c;*&quot;Úb&#x8b;ÞÕî´ói¼6&#x8b;éxG&#x8c;&#x9f;?Ä&#x93;&#xc;ªYi&#x9b;Ñ{&quot;&#x83;tüÊÐO µÐ&#x8a;û&#xf;-!`ÃMÕµeIU&#x91;¼&#x9a;ìó¸jªp±ÐqR&#x1c;&#x82;&#x18;&#x91;&#xa;íÉñZèû&#x83;&apos;·:Ø&#x9d;I·8Ó´&#x5;&#x1;û&#x86;$ñ¡&#x89;uö&#x0;)Fc8&#x8d;&#x84;&#xf;&#x98;É&gt;]âà&#x9f;T¶÷­5G)@ßs&#x88;§n*M&#x18;Ó&#x9c;`0G¥o&#x93;÷D&#x10;&#x5;&#x9d;z¯q&#x1c;{&#x11;Ä&#x83;Õ@hÀØ_Á4¿&#x8d;¨ÔÌ8ËrÔÿ&#x82;ÜÚPµ&#x4;&gt;³²&#x1a;&#x89;&#xf;Û&#x81;Ó;Ç&#x12;8º{&#x92;U*â5íJÊà&#x7f;&#x8f;eïYÒ&#x87;n&quot;&#x19;&gt;æ&#x8b;´õgi÷{&#x2;&#x16;&#x6;ø&#x12;&#x1c;V¹¯SX~îhxã&#x90;&#x99;OÁ­Uyùån­&#x9f;ùëü&quot;ç£æ,©&#x5;&#x9c;,½Çâ±Ëá&quot;6Rþ²&#x81;ï¥Pì&#x1b;RÇù\®&#x11;6&#x10;#e&#x16;ç&#x1d;{Ö&lt;wÞ&lt;&#x95;B&#x8f;`FÞ&#xa;O´&#x91;&#x93;Òz&#x12;Ì·&#x85;Ås´f9£²CÜ}lQNvC·´QO×&#x15;ñ[xëü&quot;ç£æ,©&#x5;&#x9c;,½Çâ±Ëá&quot;6Rþ²&#x81;ï¥Pì&#x1b;RÇù\®&#x11;6&#x10;#e&#x16;ç&#x1d;{Ö&lt;wÞ&lt;&#x95;B&#x8f;`FÞ&#xa;O´¦xA£}üN&#x13;­ÈÿÜ9&#x14;Ûyd]¹*46&#x6;9Ç&#x1d;Èû}&#x2;a½&#x87;&#x1c;&#x9b;D&#x8d;P&#x95;¯æ&#x0;ÒgîRú&#xf;kÜ1" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.name">ö¡b&#x11;$ßöÂÚn#xú¸û&#x9b;á&#x3;Ë&#x1c;*&quot;Úb&#x8b;ÞÕî´ói¼6&#x8b;éxG&#x8c;&#x9f;?Ä&#x93;&#xc;ªYi&#x9b;Ñ{&quot;&#x83;tüÊÐO µÐ&#x8a;û&#xf;-!`ÃMÕµeIU&#x91;¼&#x9a;ìó¸jªp±ÐqR&#x1c;&#x82;&#x18;&#x91;
+íÉñZèû&#x83;&apos;·:Ø&#x9d;I·8Ó´&#x5;&#x1;û&#x86;$ñ¡&#x89;uö&#x0;)Fc8&#x8d;&#x84;&#xf;&#x98;É&gt;]âà&#x9f;T¶÷­5G)@ßs&#x88;§n*M&#x18;Ó&#x9c;`0G¥o&#x93;÷D&#x10;&#x5;&#x9d;z¯q&#x1c;{&#x11;Ä&#x83;Õ@hÀØ_Á4¿&#x8d;¨ÔÌ8ËrÔÿ&#x82;ÜÚPµ&#x4;&gt;³²&#x1a;&#x89;&#xf;Û&#x81;Ó;Ç&#x12;8º{&#x92;U*â5íJÊà&#x7f;&#x8f;eïYÒ&#x87;n&quot;&#x19;&gt;æ&#x8b;´õgi÷{&#x2;&#x16;&#x6;ø&#x12;&#x1c;V¹¯SX~îhxã&#x90;&#x99;OÁ­Uyùån­&#x9f;ùëü&quot;ç£æ,©&#x5;&#x9c;,½Çâ±Ëá&quot;6Rþ²&#x81;ï¥Pì&#x1b;RÇù\®&#x11;6&#x10;#e&#x16;ç&#x1d;{Ö&lt;wÞ&lt;&#x95;B&#x8f;`FÞ
+O´&#x91;&#x93;Òz&#x12;Ì·&#x85;Ås´f9£²CÜ}lQNvC·´QO×&#x15;ñ[xëü&quot;ç£æ,©&#x5;&#x9c;,½Çâ±Ëá&quot;6Rþ²&#x81;ï¥Pì&#x1b;RÇù\®&#x11;6&#x10;#e&#x16;ç&#x1d;{Ö&lt;wÞ&lt;&#x95;B&#x8f;`FÞ
+O´¦xA£}üN&#x13;­ÈÿÜ9&#x14;Ûyd]¹*46&#x6;9Ç&#x1d;Èû}&#x2;a½&#x87;&#x1c;&#x9b;D&#x8d;P&#x95;¯æ&#x0;ÒgîRú&#xf;kÜ1</stringProp>
+                <stringProp name="Argument.value"></stringProp>
+                <stringProp name="Argument.metadata"></stringProp>
+              </elementProp>
+              <elementProp name="&#x85;i·Ä_»Û¾¿¡/&#x12;}&apos;Üµ&lt;&#x8d;&#x1c;Óô?ýçä&#x15;ú" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.name">&#x85;i·Ä_»Û¾¿¡/&#x12;}&apos;Üµ&lt;&#x8d;&#x1c;Óô?ýçä&#x15;ú</stringProp>
+                <stringProp name="Argument.value">ö!&#x18;Mý£¥ox®vO;ã&#x7f;³W`LXÇ|Ìë&#x97;Û&lt;Â&#x14;&#x83;Á&#x8e;º&#xc;+¥ÅøR%&apos; &#x10;;ì6&#x9d;ÁÕ¦9üù1¾:&#x9f;ÿV`lûÄ{&#x8a; &#x8;Ø1&#x94;É}ÛÁ&#x85;c@ê&#x7;²&#x80;Ù.	=Sþ&#x8b;®$&#x9d;KfÂ&#x80;SB&#x8f;`FÞ
+O´&#x91;&#x93;Òz&#x12;Ì·&#x85;óï&#x13;ÓAÞ&#xd;?BÇ&#x9a;8¨Ö&#x14;0Ì^C&#x0;õ&#x3;þ&#xf;a§Z&#x14;;í&#x7f;</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+                <boolProp name="HTTPArgument.use_equals">true</boolProp>
+              </elementProp>
+              <elementProp name="¿s°5¸7áfé&#x7;¬NIj&#x8e;âj&#x85;É§}²Æ¦&#x80;ØpC´à&#x84;ë&#x1c;:@¨ì¼ï&#x88;js" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.name">¿s°5¸7áfé&#x7;¬NIj&#x8e;âj&#x85;É§}²Æ¦&#x80;ØpC´à&#x84;ë&#x1c;:@¨ì¼ï&#x88;js</stringProp>
+                <stringProp name="Argument.value">p&#x93;#¢î&#x9c;ô
+§ª&#x3;&#x89;&#x2;&#x8f;&gt;&#x5;:I&#x89;h&#x97;)÷&#x1f;ø¸&#xb;^%&#x8a;¸ý9&#x8e;àeêµ~øCN5ÊvÕ¦9üù1¾:&#x9f;ÿV`lûÄ{&#x8a; &#x8;Ø1&#x94;É}ÛÁ&#x85;c@ê&#x7;²ý¾&#x97;=&#x9f;¦×&#x1b;Æ&#x0;&#x91;={_Z?&#x8b;­÷&#x82;ò9WÝ|úyç´&#x83;NBN¨&#x93;&#x1a;=&#x18; &#x9f;&#x8f;&gt;&#x5;:I&#x89;h&#x97;)÷&#x1f;ø¸&#xb;^%&#x8a;¸ý9&#x8e;àeê&#x8d;*?Ùwr6AÕ¦9üù1¾:&#x9f;ÿV`lûÄ{&#x8a; &#x8;Ø1&#x94;É}ÛÁ&#x85;c@ê&#x7;²ý¾&#x97;=&#x9f;¦×&#x1b;Æ&#x0;&#x91;={_Z?&#x8b;­÷&#x82;ò9WÝ|úyç´&#x83;NB&#xc;1&#xc;Ç¿VL|&#x95;W&#x1;Öxý&#x1b;/s÷¬l&#x7;s8&lt;p&#x92;kn×iù£&#x9c;&lt;&#x94;&#x8;&#x8;aÒÃÌ^C&#x0;õ&#x3;þ&#xf;u¤ÇÂd]$ Ù=ð&#x8d;&#x96;&#xe;çö&#x1c;&#x1;TrÆc&#x14;\&#x1d;&#x91;&#x81;è:&#x6;&#x9c;IÅ Pí´¾´ýè.2*òKyÓù!Ù&#x94;áØ&#x7f;¨&#x82;&#x94;/o&#x8e;&#x15;¥ÝÚ&lt;&#x11;Þâ	&#x9c;&#x3;úô£&#x1c;ÒÓ7&#x10;&#x16;Ç%&#x81;&#x14;ò~×¢&#x86;=&#x80;T &#x85;&#x9c;&#x83;]&#x9f;iµ&#xd;eÙ</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+                <boolProp name="HTTPArgument.use_equals">true</boolProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">log.tbs.qq.com</stringProp>
+          <stringProp name="HTTPSampler.port"></stringProp>
+          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+          <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          <stringProp name="HTTPSampler.protocol">http</stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+          <stringProp name="HTTPSampler.path">/ajax?c=dl&amp;k=61308a0c81243356a7437d6a6ed69307</stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <boolProp name="HTTPSampler.monitor">false</boolProp>
+          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP信息头管理器" enabled="true">
+            <collectionProp name="HeaderManager.headers">
+              <elementProp name="Content-Type" elementType="Header">
+                <stringProp name="Header.name">Content-Type</stringProp>
+                <stringProp name="Header.value">application/x-www-form-urlencoded</stringProp>
+              </elementProp>
+              <elementProp name="Accept-Encoding" elementType="Header">
+                <stringProp name="Header.name">Accept-Encoding</stringProp>
+                <stringProp name="Header.value">gzip</stringProp>
+              </elementProp>
+              <elementProp name="User-Agent" elementType="Header">
+                <stringProp name="Header.name">User-Agent</stringProp>
+                <stringProp name="Header.value">Dalvik/2.1.0 (Linux; U; Android 9; CLT-AL00 Build/HUAWEICLT-AL00)</stringProp>
+              </elementProp>
+            </collectionProp>
+          </HeaderManager>
+          <hashTree/>
+        </hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="70 /generate_204_edffb5a0-8ece-4a75-a32f-bea2c79eaebb" enabled="true">
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+            <collectionProp name="Arguments.arguments"/>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">connectivitycheck.platform.hicloud.com</stringProp>
+          <stringProp name="HTTPSampler.port"></stringProp>
+          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+          <stringProp name="HTTPSampler.response_timeout"></stringProp>
+          <stringProp name="HTTPSampler.protocol">http</stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+          <stringProp name="HTTPSampler.path">/generate_204_edffb5a0-8ece-4a75-a32f-bea2c79eaebb</stringProp>
+          <stringProp name="HTTPSampler.method">GET</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <boolProp name="HTTPSampler.monitor">false</boolProp>
+          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
+            <collectionProp name="Asserion.test_strings"/>
+            <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+            <boolProp name="Assertion.assume_success">false</boolProp>
+            <intProp name="Assertion.test_type">2</intProp>
+          </ResponseAssertion>
+          <hashTree/>
+          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP信息头管理器" enabled="true">
+            <collectionProp name="HeaderManager.headers">
+              <elementProp name="Accept-Encoding" elementType="Header">
+                <stringProp name="Header.name">Accept-Encoding</stringProp>
+                <stringProp name="Header.value">gzip</stringProp>
+              </elementProp>
+              <elementProp name="User-Agent" elementType="Header">
+                <stringProp name="Header.name">User-Agent</stringProp>
+                <stringProp name="Header.value">Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36</stringProp>
+              </elementProp>
+            </collectionProp>
+          </HeaderManager>
+          <hashTree/>
+        </hashTree>
+        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="察看结果树" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>true</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <threadCounts>true</threadCounts>
+              <idleTime>true</idleTime>
+            </value>
+          </objProp>
+          <stringProp name="filename"></stringProp>
+        </ResultCollector>
+        <hashTree/>
+      </hashTree>
+    </hashTree>
+  </hashTree>
+</jmeterTestPlan>

@@ -1,0 +1,8 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,grpThreads,allThreads,Latency,IdleTime
+1559046084814,809,登录,200,OK,线程组 1-1,text,true,,450,1,1,808,0
+1559046085625,72,创建维修单,200,OK,线程组 1-1,text,true,,701,1,1,72,0
+1559046085699,36,通过编号获取单个维修单-未修好,200,OK,线程组 1-1,text,true,,701,1,1,36,0
+1559046085736,65, 完成维修单 -确认维修,200,OK,线程组 1-1,text,true,,536,1,1,65,0
+1559046085801,52,添加维修单异常--后台维修单的异常类型选择添加,200,OK,线程组 1-1,text,true,,321,1,1,52,0
+1559046085853,48,添加维修单评论  ,200,OK,线程组 1-1,text,true,,394,1,1,48,0
+1559046085902,59,查询维修单,200,OK,线程组 1-1,text,true,,232,1,1,59,0
